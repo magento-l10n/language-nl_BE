@@ -420,6 +420,7 @@ void,leeg
 "Fraud Filters",Fraudefilters
 "Place Order","Plaats bestelling"
 "Sorry, but something went wrong. Please contact the seller.","Sorry, er ging iets mis. Gelieve contact op te nemen met de verkoper."
+"Authorize.net Direct Post","Authorize.net Directe Post"
 Enabled,Ingeschakeld
 "Payment Action",Betaling
 Title,Titel
@@ -442,10 +443,23 @@ Debug,"Fouten opsporen"
 "Maximum Order Total","Maximum orderbedrag"
 "Sort Order",Sorteervolgorde
 "Cannot place order.","Kan geen bestelling plaatsen."
+"'Gateway error: ' .","'Gateway fout: ' ."
 "Unable to place order. Please try again later.","Kan bestelling niet plaatsen. Probeer het later opnieuw."
 "A server error stopped your order from being placed. Please try to place your order again.","Een serverfout heeft er voor gezorgd dat de bestelling niet geplaatst kan worden. Probeer uw bestelling nogmaals te plaatsen."
 "The transaction details are unavailable. Please try again later.","De transactiedetails zijn niet beschikbaar. Probeer het later opnieuw."
+"Authorize.Net Direct Post (Deprecated)","Authorize.Net Directe Post (Afgekeurd)"
+"Signature Key",Handtekeningssleutel
+"There was an error while trying to process the request.","Er is een fout opgetreden bij het verwerken van het verzoek."
+"This transaction cannot be refunded with its current status.","Deze transactie kan niet worden terugbetaald met de huidige status."
+"The authenticity of the gateway response could not be verified.","De authenticiteit van de gateway reactie kon niet worden geverifieerd."
+"Basic Authorize.Net Settings","Basis Authorize.Net instellingen"
 Environment,Omgeving
+"Public Client Key","Publieke Klant Sleutel"
+"Merchant MD5 (deprecated)","Handelaar MD5 (verouderd)"
+"Advanced Authorize.Net Settings","Geavanceerde Authorize.Net instellingen"
+"Enable Credit Card Verification Field","Schakel het verificatieveld creditcard in"
+"Invalid request to gateway.","Ongeldig verzoek naar gateway."
+"Invalid gateway credentials.","Ongeldige gateway-inloggegevens."
 "Transaction has been declined. Please try again later.","Transactie is afgewezen. Probeer het later nog eens."
 options,opties
 "Select all","Alles selecteren"
@@ -584,6 +598,7 @@ Submit,Bevestig
 "The static files cache has been cleaned.","De cache van de statische bestanden werd leeggemaakt."
 "You flushed the cache storage.","U heeft de cache-opslag geleegd."
 "The Magento cache storage has been flushed.","De Magento-cacheopslag is leeg gemaakt."
+"Cache Management","Cache beheer"
 "You can't change status of cache type(s) in production mode","Je kan de status van de cachesoort(en) niet wijzigen in de productiemodus"
 "%1 cache type(s) disabled.","%1 cache type(s) uitgeschakeld."
 "An error occurred while disabling cache.","Er is een fout opgetreden tijdens het uitschakelen van de cache."
@@ -869,6 +884,7 @@ Security,Beveiliging
 Description,Beschrijving
 Tags,tags
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 Error</h1><p>Pagina niet gevonden.</p>"
+"Community Edition","Community Editie"
 "Default Theme","Standaard thema"
 "If no value is specified, the system default is used. The system default may be modified by third party extensions.","Als geen waarde is opgegeven, wordt het standaardsysteem gebruikt. Het standaardsysteem kan worden gewijzigd door extensies van derden."
 "Applied Theme","Toegepast thema"
@@ -898,6 +914,7 @@ Pagination,Paginering
 "Themes JavaScript and CSS files combined to one file.","De JavaScript- en CSS-bestanden van het thema werden samengevoegd tot één bestand."
 "Design Theme",Ontwerpthema
 "User-Agent Exceptions","User-Agent uitzonderingen"
+"Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>","Zoektermen zijn normale woorden of reguliere expressies (PCRE). Ze worden gevalideerd volgens de volgorde van ingave. Voorbeelden:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>"
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Zoekt een woord in user-agent header van de client en wijzigt het specifieke layout thema voor die browser."
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Als de huidige positie van het frame niet de uiterste pagina's bevat, zal de render verwijzen naar de huidige positie plus/min deze waarde."
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Alternatieve tekst voor vorige link in pagineringsmenu. Wanneer u deze leeg laat, wordt de standaard pijl getoond."
@@ -941,6 +958,8 @@ Pagination,Paginering
 "Save &amp; New","Opslaan &amp; Nieuw"
 "Enable Hints for Storefront with URL Parameter","Schakel hints met URL parameter in"
 "Parameter Value",Parameterwaarde
+"Enable Template Path Hints for Storefront","Schakel template pad Hints in voor winkelaanzicht"
+"Enable Template Path Hints for Admin","Schakel template pad Hints in voor Admin"
 "System Backup",Systeem-backup
 "Database and Media Backup","Database- en mediabackup"
 "Database Backup",Databasebackup
@@ -1007,6 +1026,7 @@ Rollback,Terugdraaien
 Frequency,Frequentie
 "Maintenance Mode",Onderhoudsmodus
 "Are you sure you want to delete the selected backup(s)?","Weet u zeker dat u de geselecteerde backup(s) wilt verwijderen?"
+Size(bytes),Grootte(bytes)
 Type,Soort
 Download,Downloads
 "Backup functionality is disabled","Back-up functionaliteit is uitgeschakeld"
@@ -1189,6 +1209,7 @@ YY,jj
 "Vault Title","Titel Kluis"
 "Merchant Account ID","Merchant Account-ID"
 "Advanced Fraud Protection","Geavanceerde Fraudebescherming"
+"Kount Merchant ID","Kount Handelaar ID"
 "CVV Verification","CVV verificatie"
 "Country Specific Settings","Land specifieke instellingen"
 "Country Specific Credit Card Types","Land specifieke kredietkaart types"
@@ -1328,6 +1349,7 @@ State/Province,Staat/Provincie
 "Edit My Credit Cards","Mijn creditcards bewerken"
 "Pay with PayPal","Betalen met PayPal"
 "Transaction is cancelled offline.","Transactie is offline geannuleerd."
+"Braintree Settlement","Braintree afrekening"
 "If you don't specify the merchant account to use to process a transaction, Braintree will process it using your default merchant account.","Als u geen merchant account specificeert om een transactie te verwerken, zal Braintree het verwerken via uw standaard merchant account."
 "Be sure to Enable Advanced Fraud Protection in Your Braintree Account in Settings/Processing Section","Zorg ervoor dat u geavanceerde Fraudebescherming inschakelen in uw rekening van Braintree in de sectie instellingen/verwerken"
 "Used for direct fraud tool integration. Make sure you also contact <a href=""mailto:accounts@braintreepayments.com"">accounts@braintreepayments.com</a> to setup your Kount account.","Gebruikt voor directe fraude tool integratie. Zorg ervoor dat u ook contact opnemen met <a href=""mailto:accounts@braintreepayments.com""> accounts@braintreepayments.com</a> voor het opzetten van uw Kount account."
@@ -1415,6 +1437,7 @@ Percent,Percentage
 "Default Title",Standaardtitel
 "Store View Title","Winkelaanzicht Titel"
 "Input Type",Invoertype
+Drop-down,Dropdown
 "Radio Buttons","Radio buttons"
 "Multiple Select",Multi-select
 Required,Vereist
@@ -1694,6 +1717,7 @@ Categories,Categorieën
 Grid,Foto-tabel
 List,Lijst
 "Bad controller interface for showing product","Verkeerde controller interface voor het weergeven van product"
+"Product is not loaded","Product is niet geladen"
 "Make sure the To Date is later than or the same as the From Date.","Zorg ervoor dat de t/m datum is hoger dan of gelijk aan de datum van."
 "Sorry, but we can't find the new parent category you selected.","Geselecteerde nieuwe bovenliggende categorie niet gevonden."
 "Sorry, but we can't find the new category you selected.","Geselecteerde nieuwe categorie niet gevonden."
@@ -2108,7 +2132,6 @@ Comma-separated.,"gescheiden door een komma"
 "Category Link Inline Template","Categorieën-link inline-sjabloon"
 "Recently Viewed Products","Recent bekeken producten"
 "List of Products Recently Viewed by Visitor","Overzicht van producten die recentelijk door bezoekers bekeken zijn"
-"UI Component",UI-Component
 "Number of Products to display","Aantal producten om te tonen"
 "Product attributes to show","Product attributen om te tonen"
 Image,Beeld
@@ -2189,6 +2212,7 @@ Overview,Overzicht
 "You moved the category","U heeft de categorie verplaatst"
 "This product no longer exists.","Dit product bestaat niet meer"
 "We can't find the image file.","Afbeeldingsbestand niet gevonden."
+"productFactory is already set","productFactory is al ingesteld"
 "Could not save product option","Kan product optie niet opslaan"
 "Product option with id %1 does not exist","Product optie met id %1 bestaat niet"
 "Are you sure you want to delete this category?","Weet u zeker dat u deze categorie wilt verwijderen?"
@@ -2222,6 +2246,7 @@ to,naar
 "Maximum %1 characters","Maximaal %1 tekens"
 remaining,resterend
 "too many","te veel"
+"Sending attribute values as package.","Attribuutwaarden verzenden als pakket."
 "This value does not follow the specified format (for example, 200X300).","De waarde volgt het patroon niet (bijvoorbeeld 200X300)."
 "Applies to category pages","Is van toepassing op de categorie-pagina 's"
 "Remember Category Pagination","Onthoud Categorie Paginering"
@@ -2351,6 +2376,7 @@ Scroll,scroll
 "Catalog Events Carousel Default Template","Normale template van de carousel van catalogus-gebeurtenissen"
 "Category ID","Categorie ID"
 End,Einde
+"Countdown Ticker",Afteltimer
 "Edit Event...","Bewerk gebeurtenis"
 "Add Event...","voeg gebeurtenis toe"
 "Concrete type for %1 not implemented","Concreet type voor %1 is niet geïmplementeerd"
@@ -2365,6 +2391,7 @@ End,Einde
 "'category_id' only supports 'eq' condition type.","'category_id' ondersteunt alleen 'eq' conditietype."
 "Cannot resolve layered filter type","Kan gelaagde filtertype niet oplossen"
 "Cannot resolve type","Kan type niet oplossen"
+"Category doesn't exist","Categorie bestaat niet"
 """image_type"" value should be specified","De waarde ""image_type"" moet worden opgegeven"
 "currentPage value %1 specified is greater than the %2 page(s) available.","currentpage waarde %1 opgegeven is groter dan de %2 pagina(s) beschikbaar."
 "There are no product types available for export.","Er zijn geen product-typen beschikbaar om te exporteren."
@@ -2388,7 +2415,9 @@ End,Einde
 "Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","Type entiteitsmodel moet voorkomen in \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType"
 "Entity type model must be an instance of '%1'","'Entiteit type model moet een exemplaar zijn van '%1'"
 "Disallowed file type.","Bestandstype is niet toegestaan."
+"Value for multiselect attribute %s contains duplicated values","Waarde voor multiselect attribuut %s bevat dubbele waarden"
 "Invalid Stock data for insert","Ongeldige voorraad gegevens voor invoegen"
+"Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: %1","Waarde voor het 'type' subattribuut in het 'custom_options' attribuut bevat een onjuiste waarde, geaccepteerde waarden zijn: %1"
 "Minimum Qty","Minimum aantal"
 "Add Minimum Qty","Voeg minimum aantal toe"
 "Could not rebuild index for empty products array","Kan index voor lege producten niet opnieuw opbouwen"
@@ -2469,6 +2498,7 @@ Stock,Voorraad
 "All Customer Groups","Alle klantengroepen"
 Allow,Toestaan
 Deny,Weigeren
+"Use parent","Gebruik ouder"
 "Category Permissions Section","Toestemmingen categorie"
 "<strong style=""color:red"">Warning!</strong> By default this feature restricts all categories.","<strong style=""color:red"">Waarschuwing!</strong> Standaard zal deze functie alle categorieën beperken."
 "Allow Browsing Category","Toestaan om categorie te bekijken"
@@ -2786,6 +2816,7 @@ items,producten
 of,van
 "Something went wrong while saving the page. Please refresh the page and try again.","Er ging iets mis tijdens het opslaan van de pagina. Ververs de pagina en probeer het opnieuw."
 "You added %1 to your <a href=""%2"">shopping cart</a>.","U heeft %1 toegevoegd aan uw <a href=""%2"">winkelwagen</a>."
+"Please select at least one product to add to cart","Selecteer ten minste één product om toe te voegen aan winkelwagen"
 "The quote item isn't found. Verify the item and try again.","Het offerte item is niet gevonden. Controleer het item en probeer het opnieuw."
 "The product wasn't found. Verify the product and try again.","Het product is niet gevonden. Controleer het product en probeer het opnieuw."
 "The shipping address is missing. Set the address and try again.","Het verzendadres ontbreekt. Stel het adres in en probeer het opnieuw."
@@ -3480,6 +3511,8 @@ Specified,Gespecificeerd
 "You cannot run this command because the Magento application is not installed.","U kunt dit commando niet uitvoeren, want de Magento-applicatie is niet geïnstalleerd."
 "This command is unavailable right now.","Het commando is op dit moment niet beschikbaar."
 "The ""test/test/test"" path does not exists","Het ""test/test/test"" pad bestaat niet"
+some_label,een_label
+some_comment,een_opmerking
 "some prefix","een voorvoegsel"
 "element hint","element tip"
 "element comment","element opmerking"
@@ -3502,6 +3535,8 @@ Specified,Gespecificeerd
 "Web Section","Web sectie"
 "Store Email Addresses Section","Winkel E-mailadressen sectie"
 "Email to a Friend","E-mail naar een vriend"
+"'The specified image adapter cannot be used because of: ' .","'De opgegeven afbeelding adapter kan niet worden gebruikt omdat: ' ."
+"The file ""' . . '"" does not exist","Het bestand ""' . . '"" bestaat niet"
 "The class for ""%1"" type wasn't declared. Enter the class and try again.","De class van het ""%1"" type is niet gedeclareerd. Vul deze in en probeer het opnieuw."
 "The ""%1"" email address is incorrect. Verify the email address and try again.","E-mailadres ""%1"" is ongeldig. Controleer het e-mailadres en probeer het opnieuw."
 "The time zone is incorrect. Verify the time zone and try again.","De tijdzone is incorrect. Controleer de tijdzone en probeer het nogmaals."
@@ -3613,6 +3648,7 @@ U moet een een simpel product aanmaken voor elke configuratie (Ex: een product v
 save,bewaar
 "Configurable Product Image","Afbeelding configureerbaar product"
 "As low as: ","Vanaf: "
+"catalogProductMediaConfig is already set","catalogProductMediaConfig is al ingesteld"
 "Could not update option with id ""%1""","Optie kon niet worden bijgewerkt met id ""%1"""
 "Product already has this option","Product heeft al deze optie"
 "The configurable product does not have any variation attribute.","Het configureerbaar product heeft geen enkel variatie attribuut."
@@ -3678,6 +3714,8 @@ save,bewaar
 "Use HTTP Only","Alleen HTTP gebruiken"
 "Cookie Restriction Mode","Cookie restrictiemodus"
 "<strong style=""color:red"">Warning</strong>:  Do not set to ""No"". User security could be compromised.","<strong style=""color:red"">waarschuwing</strong>:  Verander niet naar ""Nee"". Gebruikersbeveiliging kan worden ingeperkt."
+"'Invalid domain name: ' .","'Ongeldige domeinnaam: ' ."
+"'Invalid cookie lifetime: ' .","'Ongeldige cookie-levensduur: ' ."
 "We can't save the cron expression.","We kunnen de Cron opdracht niet opslaan."
 Daily,Dagelijks
 Weekly,Wekelijks
@@ -4181,6 +4219,7 @@ Addresses,Adressen
 "The password for your account has been successfully changed.","Het wachtwoord voor uw account werd met success gewijzigd."
 "If you did not request this change, please contact us.","Indien u deze aanvraag niet heeft ingediend, contacteer ons."
 "Checkout out as a new customer","Afrekenen als een nieuwe klant"
+"Create Account","Account Aanmaken"
 "Checkout out using your account","Reken af met uw account"
 "Leave empty for default (2). Valid range: 1-4","Laat leeg voor standaard (2). Geldige opties: 1-4"
 "Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.","Waarden scheiden met puntkomma (;).<br/>Zet een puntkomma aan het begin voor een lege eerste optie.<br/>Vul niets in voor een leeg tekstveld."
@@ -4235,6 +4274,8 @@ Street,Straatnaam
 "Are you sure you want to delete the address?","Weet u zeker dat u het adres wilt verwijderen?"
 "Additional addresses","Extra adressen"
 State,Provincie
+"Reset password","Wachtwoord opnieuw instellen"
+"Invalidate tokens","Ongeldige tokens"
 "Update Address","Adres bijwerken"
 "Name Prefix",Voorvoegsel
 "Name Suffix",Achtervoegsel
@@ -4374,17 +4415,23 @@ available,Beschikbaar
 "A row with this email, website, and finance website combination already exists.","Een rij met deze e-mail, website en financiën website combinatie bestaat al."
 "Data was imported by %1","Gegevens werden geimporteerd door %1"
 "Reward Points",Spaarpunten
+"Current customer does not have access to the resource ""%1""","Huidige klant heeft geen toegang tot de bron ""%1"""
+"Customer id %1 does not exist.","Klant id %1 bestaat niet."
 "Required parameters are missing: %1","Vereiste parameters ontbreken: %1"
 "Customer Address %1 is set as default billing address and can not be deleted","Klant adres %1 is ingesteld als standaard factuuradres en kan niet worden verwijderd"
 "Customer Address %1 is set as default shipping address and can not be deleted","Klant adres %1 is ingesteld als standaard verzendadres en kan niet worden verwijderd"
+"Could not find a address with ID ""%address_id""","Kan geen adres vinden met ID ""%address_id"""
+"Current customer does not have permission to address with ID ""%address_id""","Huidige klant heeft geen toestemming tot adres met ID ""%address_id"""
 "The current customer isn't authorized.","De huidige klant is niet geautoriseerd."
 "Customer with id ""%customer_id"" does not exist.","Klant met id ""%customer_id"" bestaat niet."
 "Provide the current ""password"" to change ""email"".","Geef het huidige ""wachtwoord"" om ""e-mail"" te wijzigen."
 "Specify the ""currentPassword"" value.","De waarde ""currentPassword"" moet worden opgegeven."
 "Specify the ""newPassword"" value.","De waarde ""newPassword"" moet worden opgegeven."
 """input"" value should be specified","De waarde ""input"" moet worden opgegeven"
+"Address ""id"" value should be specified","Adres ""id"" moet worden opgegeven"
 "Specify the ""email"" value.","De waarde ""email"" moet worden opgegeven."
 "Specify the ""password"" value.","De waarde ""password"" moet worden opgegeven."
+"""Email should be specified","""Email moet worden opgegeven"
 "Please specify a website.","Geef een website op."
 "Please specify an email.","Geef een e-mailadres op."
 "We found an invalid value in a website column.","We vonden een ongeldige waarde in een kolom van de website."
@@ -4509,6 +4556,7 @@ matches,"komt overeen"
 "Manage Segments","Beheer Segmenten"
 "View Combined Report","Gecombineerd Rapport Inzien"
 "We're unable to delete the segement.","We kunnen het segment niet verwijderen."
+"Custom Condition","Aangepaste Voorwaarde"
 "The quote total specified is unknown. Verify the total and try again.","Het gespecificeerde offerte totaal is onbekend. Controleer het totaal en probeer het opnieuw."
 "AVS result code","AVS resultaatcode"
 "CVN result code","CVN resultaatcode"
@@ -4548,6 +4596,12 @@ Decision,Besluit
 "Profile ID",Profiel-ID
 "Access Key",Toegangstoets
 "Secret Key","Geheime Sleutel"
+"Webhook URL should be set in your Cybersource account as Transaction Response Page.","Webhook URL moet ingesteld worden in uw Cybersource account als Transactie Response Pagina."
+"Is admin panel works on the different domain?","Is admin paneel op het andere domein actief?"
+"Admin Profile ID","Beheerder profiel ID"
+"Admin Access Key","Beheerder toegangssleutel"
+"Admin Secret Key","Beheerder geheime sleutel"
+"Admin Webhook URL","Beheerder Webhook URL"
 "The credit card type field needs to be provided. Select the field and try again.","Het veld van het creditcardtype moet worden opgegeven. Selecteer het veld en probeer het opnieuw."
 "Import failed: %1","Import mislukt: %1"
 "%1 does not implement %2","%1 is geen implementatie van %2"
@@ -4590,8 +4644,10 @@ Decision,Besluit
 Pounds,"500 gram"
 Kilograms,Kilogram
 Height,Hoogte
+Depth,Diepte
 Width,Breedte
 Regular,Normaal
+Specific,Specifiek
 "Domestic express 9:00","Binnenlandse zending 9:00"
 "Domestic express 12:00","Binnenlandse zending 12:00"
 "DHL service is not available at %s date","DHL service is niet beschikbaar op %s datum"
@@ -4601,6 +4657,7 @@ Regular,Normaal
 "Cannot identify measure unit for %1","Kan eenheid niet meten voor %1"
 "Cannot identify weight unit for %1","Kan niet identificeren gewichtseenheid is voor %1"
 "Please specify origin country.","Geef een land van oorsprong op."
+Documents,Documenten
 "Height, width and length should be equal or greater than %1","Hoogte, breedte en lengte moet gelijk of groter zijn dan %1"
 "Wrong Region","Verkeerde Regio"
 "Unable to retrieve tracking","Kan tracking niet ophalen"
@@ -4630,6 +4687,9 @@ Size,Grootte
 "Ready time","Klaar tijd"
 "Package ready time after order submission (in hours)","Pakket klaar na bestelling indiening (over uren)"
 "The security validation of the XML document has failed.","De beveiligingsvalidatie van het XML-document is mislukt."
+"Content Type (Non Domestic)","Inhoudstype (niet-Domestic)"
+"Documents Allowed Methods","Documenten toegestane methoden"
+"Non Documents Allowed Methods","Niet-Documenten toegestaan methoden"
 kgs,kg.
 "Requested country is not available.","Opgevraagde land is niet beschikbaar."
 "Undefined rate from ""%1-%2"".","Onbepaald tarief van ""%1-%2""."
@@ -4662,6 +4722,7 @@ Webservicex,"Webservicex instellingen"
 "State Options",Staat-opties
 "State is Required for","Staat is verplicht voor"
 "Allow to Choose State if It is Optional for Country","Mogelijkheid tot kiezen van staat indien het optioneel is voor een land"
+"Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").","Basisvaluta wordt gebruikt voor alle online betalingstransacties. Als u meerdere Winkelaanzichten heeft, wordt de basisvaluta vastgelegd bij de Catalogusprijzen (""Catalogus"" > ""Prijs"" > ""Catalogus Prijs Scope"")."
 "No API Key was specified or an invalid API Key was specified.","Geen API-sleutel is opgegeven of een ongeldige API-sleutel is opgegeven."
 "The account this API request is coming from is inactive.","Het account waar deze API-aanvraag vandaan komt, is inactief."
 "The ""%1"" is not allowed as base currency for your subscription plan.","""%1"" is niet toegestaan als basisvaluta voor uw abonnement."
@@ -4812,6 +4873,7 @@ download,downloaden
 "Attempt to add an invalid object","Poging om een ongeldig object toe te voegen"
 "Invalid attribute identifier for filter (%1)","Ongeldige attribuut-identifier voor filter (%1)"
 "Invalid attribute requested: %1","Ongeldig attribuut opgevraagd: %1"
+"Joint field or attribute expression with this alias is already declared","Gezamenlijk veld of attribuut expressie met deze alias is al gedeclareerd"
 "Invalid alias, already exists in joint attributes","Ongeldige alias, bestaat al in gejoinde attributen"
 "Invalid foreign key","Ongeldige referentiesleutel"
 "Invalid entity type","Ongeldig entiteittype"
@@ -4847,6 +4909,7 @@ hello,hallo
 "EAV types and attributes","EAV typen en kenmerken"
 "Entity types declaration cache","Entiteit typen verklaringen cache"
 "Entity types declaration cache.","Entiteit typen verklaring cache."
+"'Invalid backend model specified: ' .","'Ongeldig backend model opgegeven: ' ."
 "The attribute group doesn't belong to the provided attribute set.","Attribuut groep behoort niet tot de opgegeven attribuut set."
 "The attributeGroup can't be saved.","De attribuut groep kan niet opgeslagen worden."
 "The attribute group with id ""%1"" can't be deleted.","De attribuut groep met id ""%1"" kan niet worden verwijderd."
@@ -4897,15 +4960,19 @@ hello,hallo
 """Attribute code should be specified","""Attribuutcode moet worden opgegeven"
 "Attribute code %1 of entity type %2 not configured to have a type.","Attribuut code %1 van entiteit type %2 niet geconfigureerd om een type te hebben."
 "Missing %1 for the input %2.","Ontbrekende %1 voor input %2."
+"Type %1 has no internal representation declared.","Type %1 heeft geen interne representatie opgegeven."
 "Cannot resolve EAV type","Kan EAV type niet oplossen"
 "The search failed because of a search engine misconfiguration.","De zoekactie is mislukt vanwege een onjuiste Search Engine configuratie."
 "There is no such data mapper ""%1"" for interface %2","Er is geen dergelijke gegevens mapper ""%1"" voor interface %2"
 "Data mapper ""%1"" must implement interface %2","Mapper van de gegevens ""%1"" moet interface %2 implementeren"
 "Could not ping search engine: %1","Kan niet pingen naar zoekmachine: %1"
+"Elasticsearch Server Hostname","Elasticsearch Server Hostnaam"
+"Elasticsearch Server Port","Elasticsearch Server Poort"
 "Elasticsearch Index Prefix","Elasticsearch Index voorvoegsel"
 "Enable Elasticsearch HTTP Auth","Elasticsearch HTTP Auth inschakelen"
 "Elasticsearch HTTP Username","Elasticsearch HTTP gebruikersnaam"
 "Elasticsearch HTTP Password","Elasticsearch HTTP wachtwoord"
+"Elasticsearch Server Timeout","Elasticsearch Server Time-out"
 "Test Connection","Test Verbinding"
 "We were unable to perform the search because of a search engine misconfiguration.","De zoekopdracht kan niet worden uitgevoerd vanwege een onjuiste zoekmachine configuratie."
 "Add New Template","Nieuw sjabloon toevoegen"
@@ -4988,6 +5055,7 @@ hello,hallo
 Emails,E-mails
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Toegestane bestand types: jpg, jpeg, gif, png. Om een logo te optimalizeren voor hoge resolutie schermen, upload een afbeelding die 3x zo groot is en specifieer vervolgens 1x de dimensies in de breedte/hoogte velden."
 "Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Enkel verplicht als u hierboven een afbeelding heeft geüpload. Geeft het aantal pixels in, zonder ""px"" toe te voegen."
+"<pre>' . . . . '</pre>","<pre>'. . . . . '</pre>"
 "The design config needs an area and a store. Verify that both are set and try again.","De ontwerpconfiguratie heeft een gebied en een winkel nodig. Controleer of beide zijn ingesteld en probeer het opnieuw."
 "To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","Als u het logo wilt optimaliseren voor displays met een hoge resolutie uploadt u een afbeelding met de normale grootte van 3x en geeft u vervolgens 1x-afmetingen op in de onderstaande velden voor breedte / hoogte."
 "Change Encryption Key","Verander encryptiesleutel"
@@ -5059,6 +5127,7 @@ Packaging,Verpakking
 Dropoff,Dropshipment
 "Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","Maximum pakketgewicht (Vraag uw transportbedrijf naar het maximaal toegestane pakketgewicht)"
 "Residential Delivery","Particulier adres"
+"Expected Delivery:","Verwachte levering:"
 "Gift Card Information","Cadeau kaartinformatie"
 Virtual,Virtuele
 Physical,Fysiek
@@ -5722,9 +5791,19 @@ User,Gebruiker
 "Empty attribute value constant","Lege attribuut waarde constante"
 "Incorrect entity name.","Onjuiste entiteitsnaam."
 "-- Not Selected --","-- Niet Geselecteerd --"
+"Validation Strategy","Validatie Strategie"
+"Message is added to queue, wait to get your file soon","Bericht is toegevoegd aan de wachtrij, wacht om uw bestand snel te krijgen"
+"Please provide export file name","Voer de naam van het exportbestand in"
+"There are no export file with such name %1","Er is geen exportbestand met deze naam %1"
+"Your export file is ready","Uw exportbestand is klaar"
+"You can pick up your file at export main page","U kunt uw bestand ophalen op de export hoofdpagina"
+"Error during export process occurred","Er is een fout opgetreden tijdens het exporteren"
+"Error during export process occurred. Please check logs for detail","Er is een fout opgetreden tijdens het exporteren. Controleer de logboeken voor details"
 "New product data is added to the existing product data for the existing entries in the database. All fields except sku can be updated.","Nieuwe productgegevens zijn toegevoegd aan de bestaande productgegevens voor de bestaande items in de database. Alle velden behalve sku kunnen worden bijgewerkt."
 "The existing product data is replaced with new data. <b>Exercise caution when replacing data because the existing product data will be completely cleared and all references in the system will be lost.</b>","De bestaande productgegevens worden vervangen door nieuwe gegevens. <b>Wees voorzichtig bij het vervangen van gegevens, want de bestaande productgegevens worden volledig gewist en alle referenties in het systeem gaan verloren.</b>"
 "Any entities in the import data that already exist in the database are deleted from the database.","Alle entiteiten in de importgegevens die al bestaan in de database worden verwijderd uit de database."
+"Are you sure you wan't to delete a file?","Weet u zeker dat u dit bestand wilt verwijderen?"
+"File name",Bestandsnaam
 "Indexer Management","indexering management"
 "Update by Schedule","Volgens schema bijwerken"
 "Update on Save","Indexeren bij opslaan"
@@ -6020,7 +6099,11 @@ Invitation,Uitnodiging
 "Display Product Count","Toon aantal producten"
 "Price Navigation Step Calculation","Prijsweergave (stappen)"
 "Default Price Navigation Step","Stappen (10/20/30/ etc...)"
+"Maximum Number of Price Intervals","Maximum aantal prijsintervallen"
+"Maximum number of price intervals is 100","Maximum aantal prijsintervallen is 100"
 "Display Price Interval as One Price","Toon prijs-stap als één prijs"
+"This setting will be applied when all prices in the specific price interval are equal.","Deze instelling zal worden toegepast wanneer alle prijzen in het specifieke prijsinterval gelijk zijn."
+"Interval Division Limit","Interval Divisie Limiet"
 "Please specify the number of products, that will not be divided into subintervals.","Geef het aantal producten op, welke niet in deelintervallen verdeeld zullen worden."
 "Position of attribute in layered navigation block","Positie van attribuut in gelaagde-navigatieblok"
 "Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price","Kan alleen gebruikt worden met catalogusinvoertype Ja/Nee, Dropdown, Multiple select en Prijs"
@@ -6032,6 +6115,8 @@ Invitation,Uitnodiging
 "Can be used only with catalog input type Yes/No, Dropdown, Multiple Select and Price.","Kan alleen gebruikt worden met catalogusinvoertype Ja/Nee, Dropdown, Multiple select en Prijs."
 "Can be used only with catalog input type Yes/No (Boolean), Dropdown, Multiple Select and Price.","Kan alleen gebruikt worden met catalogusinvoertype Ja/Nee (Boolean), Dropdown, Multiple select en Prijs."
 "Admin Actions Log Archive","Admin Actief Logboek"
+"Log Entry #%1","Logbericht #%1"
+"Log Entry Details",Loggegevens
 "Source Data",Brongegevens
 "Value Before Change","Waarde voor wijzigen"
 "Value After Change","Waarde na wijzigen"
@@ -6071,6 +6156,7 @@ Archive,Archief
 Move,Verplaats
 Reorder,"Opnieuw bestellen"
 Print,Afdrukken
+Run,Uitvoeren
 "Reindex Process",Herindexeren
 Clean,Opschonen
 Flush,Wissen
@@ -6118,6 +6204,7 @@ Result,Resultaat
 "Full Action Name","Volledige Actienaam"
 "Full Details","Volledige Details"
 "More permissions are needed to access this.","Meer bevoegdheden zijn nodig om hier toegang toe te hebben."
+"Representing Magento's highest level of partner engagement, Magento Platinum Partners have established themselves as leaders and innovators of key products and services designed to help merchants and brands grow their business. Magento reserves the Platinum level for select trusted partners that are committed to offering integrations of commerce features, functions, and tools, as well as back-end systems and operations, to extend and enhance the power of the Magento commerce platform.","Als vertegenwoordigers van Magento's hoogste niveau van partnerbetrokkenheid, hebben Magento Platinum Partners zich gevestigd als leiders en vernieuwers van de belangrijkste producten en diensten ontworpen om te helpen handelaren en merken de groei van hun bedrijf. Magento behoudt zich het Platinum-niveau voor een select aantal vertrouwde partners die zich inzetten voor het aanbieden van integraties van de handel mogelijkheden, functies en hulpmiddelen, evenals back-end systemen en operaties, uit te breiden en verbeteren van de kracht van het Magento commerce platform."
 "Featured Platinum Partners","Aanbevolen Platinum Partners"
 "Partner search","Partner zoeken"
 "Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento beschikt over een bloeiend ecosysteem van technologiepartners om handelaars en merken de best mogelijke kantervaring te leveren. Ze worden erkend als expert in e-Commerce, zoeken, e-mail marketing, betalingen, btw, fraude, optimalisatie en analytics, vervulling, en meer. Bezoek de Magento Partner Directory om al onze vertrouwde partners te bekijken."
@@ -6165,6 +6252,7 @@ Synchronizing...,Synchroniseren...
 "Display Actual Price","Toon werkelijke prijs"
 "Default Popup Text Message","Standaard popup bericht"
 "Default ""What's This"" Text Message","Standaard ""Wat is dit?"" bericht"
+"<strong style=""color:red"">Warning!</strong> Enabling MAP by default will hide all product prices on Storefront.","<strong style=""color:red"">Waarschuwing!</strong> Het gebruik van de minimum geadverdeerde verkoopprijs zal alle productprijzen in de frontend verbergen."
 Wishlist,Verlanglijst
 "Customer's Wish List Report","Rapportage verlanglijst klant"
 "My Wish Lists",Verlanglijst
@@ -6245,6 +6333,7 @@ Wishlist,Verlanglijst
 "Product Info",Productinformatie
 "Could not create a wish list.","Kon geen verlanglijst aanmaken."
 "The default wish list can't be deleted.","De standaard verlanglijst kan niet worden verwijderd."
+"Edit wish list","Verlanglijst bewerken"
 "Ship to Multiple Addresses","Verzenden naar meerdere adressen"
 "Billing Information - %1","Factuuradres - %1"
 "Review Order - %1","Controleer bestelling - %1"
@@ -6652,6 +6741,7 @@ Expires:,Verloopt:
 "Quote Total (Negotiated)","Offerte totaal (overeengekomen)"
 "Quote Name",Offertenaam
 "Quote Total","Offerte totaal"
+"Exception occurred during quote view %s","Er trad een fout op tijdens het bekijken van offerte %s"
 "No such public catalog entity","Geen dergelijke openbare catalogusentiteit"
 "Shared Catalog (or Customer Group)","Gedeelde catalogus (of klantgroep)"
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Geen New Relic Applicatie ID is geconfigureerd, kan niet doorgaan met Cron evenement rapportering"
@@ -6906,7 +6996,12 @@ Instructions,Instructies
 "Related Orders","Gerelateerde bestellingen"
 "Billing Agreement View","Bekijk incasso-overeenkomst"
 "Are you sure you want to authorize full order amount?","Weet u zeker dat u het volledige orderbedrag wilt autoriseren?"
+"View Transaction Details","Bekijk transactie details"
+"Reference Information","Referentie informatie"
+"Transaction Information","Transactie informatie"
+"PayPal Fee Information","PayPal Fee informatie"
 "We are connecting to the PayPal SFTP server to retrieve new reports. Are you sure you want to continue?","We maken verbinding met de PayPal SFTP server om nieuwe rapporten op te halen. Bent u zeker dat u wilt verdergaan?"
+"Fetch Updates","Updates ophalen"
 "View Demo","Bekijk Demo"
 "See terms","Zie voorwaarden"
 "You will be redirected to the PayPal website.","U wordt doorverwezen naar de PayPal website."
@@ -6929,6 +7024,7 @@ Instructions,Instructies
 "We can't start the billing agreement wizard.","We kunen de facturatieovereenkomst wizard niet starten."
 "Billing Agreement # %1","Incasso-overeenkomst # %1"
 "We can't initialize Express Checkout.","Wij kunnen de express betaling niet initialiseren."
+"PayPal Express Checkout Token does not exist.","PayPal Express Checkout Token bestaat niet."
 "A wrong PayPal Express Checkout Token is specified.","Er werd een onjuist PayPal Express Checkout Token opgegeven."
 "Express Checkout and Order have been canceled.","Express Checkout en de bestelling zijn geannuleerd."
 "Express Checkout has been canceled.","Express Checkout is geannuleerd"
@@ -6942,6 +7038,7 @@ Instructions,Instructies
 "Error processing payment, please try again later.","Er is een fout opgetreden tijdens het betalingsproces, probeer het later opnieuw."
 "Authorization is not allowed.","Autorisatie-actie is niet beschikbaar."
 "Payment Gateway is unreachable at the moment. Please use another payment option.","Op dit moment is de Payment Gateway onbereikbaar. Gebruik een andere betalingsoptie."
+"PayPal response hasn't required fields.","PayPal antwoord heeft geen verplichte velden."
 "Something went wrong while processing your order.","Er ging iets mis tijdens het verwerken van uw bestelling."
 "PayPal gateway has rejected request. %1","PayPal gateway heeft de aanvraag geweigerd. %1"
 "The PayPal gateway rejected the request. %1","De PayPal gateway heeft de aanvraag geweigerd. %1"
@@ -6956,30 +7053,47 @@ Instructions,Instructies
 "The PayPal certificate does not exist.","Het PayPal-certificaat bestaat niet."
 "We prefer PayPal (150 X 60)","Wij prefereren PayPal (150 X 60)"
 "We prefer PayPal (150 X 40)","Wij prefereren PayPal (150 X 40)"
+"Now accepting PayPal (150 X 60)","Betaling met PayPal mogelijk (150 X 60)"
+"Now accepting PayPal (150 X 40)","Betaling met PayPal mogelijk (150 X 40)"
+"Payments by PayPal (150 X 60)","Betalingen via PayPal (150 X 60)"
+"Payments by PayPal (150 X 40)","Betalingen via PayPal (150 X 40)"
+"Shop now using (150 X 60)","Winkel nu met behulp van (150 X 60)"
+"Shop now using (150 X 40)","Winkel nu met behulp van (150 X 40)"
 Shortcut,Sneltoets
 "Acceptance Mark Image","Acceptatie-indicatie afbeelding"
 Authorization,Autorisatie
+"For Virtual Quotes Only","Alleen voor virtuele offertes"
 Auto,Automatisch
 "Ask Customer","Vraag klant"
 "IPN (Instant Payment Notification) Only","Alleen IPN (Instant Payment Notification)"
 "API Signature","API handtekening"
+"API Certificate",API-certificaat
+"The maximum number of child authorizations is reached.","Het maximum aantal kinderautorisaties is bereikt."
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","We zullen de hoeveelheid van %1 toestaan zodra de betaal gateway zijn goedkeuring geeft."
 "The authorized amount is %1.","Het geautoriseerde bedrag is %1."
 "PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal kan geen bestellingen verwerken met een nul saldo. Om uw bestelling te voltooien, volg het standaard checkout proces."
 "A payer is not identified.","Een betaler wordt niet herkend."
 "Cannot get secure form URL from PayPal","Kan geen beveiligde URL verkrijgen van PayPal"
+"Last Transaction ID","Laatste transactie-ID"
 "This customer didn't include a confirmed address.","De klant heeft geen bevestigd adres opgegeven."
+"The payment is authorized but not settled.","De betaling is geautoriseerd maar niet afgewikkeld."
 "The payment eCheck is not cleared.","De betaling eCheck is niet gewist."
 "The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.","De verkoper heeft een niet-Amerikaanse rekening en beschikt niet over een vorderingsmechanisme."
 "The payment currency doesn't match any of the merchant's balances currency.","De valuta van betaling komt niet overeen met de mogelijke valuta van de handelaar."
-"The payment is pending because it was made to an email address that is not yet registered or confirmed.","De betaling is in behandeling omdat het gebruikte E-mailadres nog niet geregistreerd of bevestigd is."
+"The payment is pending while it is being reviewed by PayPal for risk.","De betaling is in behandeling terwijl deze wordt bekeken door PayPal voor risico's."
+"The payment is pending because it was made to an email address that is not yet registered or confirmed.","De betaling is in behandeling omdat deze is gedaan met een e-mailadres dat nog niet geregistreerd of bevestigd is."
+"The merchant account is not yet verified.","Winkelaccount is nog niet geverifieerd."
+"The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.","De betaling is gedaan via kredietkaart. Om het geld te ontvangen moet de handelaar zijn account upgraden naar Business of Premier."
 "Sorry, but something went wrong. Please contact PayPal customer service.","Er ging iets mis. Neem contact op met de klantenservice van PayPal."
 "A reversal has occurred on this transaction due to a chargeback by your customer.","De transactie werd teruggedraaid wegens een chargeback door uw klant."
 "A reversal has occurred on this transaction due to your customer triggering a money-back guarantee.","De transactie werd teruggedraaid wegens het activeren van de geld-terug garantie door uw klant."
 "A reversal has occurred on this transaction due to a complaint about the transaction from your customer.","De transactie werd teruggedraaid als gevolg van een klacht omtrent de transactie vanwege uw klant."
 "A reversal has occurred on this transaction because you have given the customer a refund.","De transactie werd teruggedraaid aangezien u de klant heeft terugbetaald."
+"Reversal of an adjustment.","Terugkeer van een aanpassing."
 "Transaction reversal due to fraud detected by PayPal administrators.","De transactie is teruggedraaid als gevolg van fraude ontdekt door PayPal beheerders."
 "Transaction reversal by PayPal administrators.","Transactie teruggedraaid door PayPal beheerders."
+"Reimbursement for a chargeback.","Vergoeding voor een terugbetaling."
+"Settlement of a chargeback.","Vereffening van een terugbetaling."
 "A reversal has occurred on this transaction because of a customer dispute suspecting unauthorized spoof.","De transactie werd teruggedraaid vanwege een geschil van de klant omtrent een niet-geautoriseerde actie."
 "Buyer claims that he did not receive goods or service.","Koper beweert dat hij geen goederen of diensten heeft ontvangen."
 "Buyer claims that the goods or service received differ from merchant’s description of the goods or service.","Koper beweert dat de ontvangen waren of diensten afwijken van de door handelaar gegeven beschrijving van goederen of diensten."
@@ -6988,17 +7102,45 @@ Auto,Automatisch
 "Buyer claims that a possible duplicate payment was made to the merchant.","Koper beweert dat er mogelijk een dubbele betaling aan de verkoper heeft plaatsgevonden."
 "Buyer claims that the received merchandise is unsatisfactory, defective, or damaged.","Koper beweert dat de ontvangen goederen onbevredigend, defect of beschadigd zijn."
 "Unknown reason. Please contact PayPal customer service.","Onbekende reden. Neem contact op met de PayPal klantenservice."
+"Payer Address ID","Payer adres ID"
+"Payer Address Status","Payer Adres Status"
+"Merchant Protection Eligibility","Ondersteuning voor verkopersbescherming"
+"Triggered Fraud Filters","Getriggerde fraude filters"
+"Last Correlation ID","Laatste Correlation ID"
 "Address Verification System Response","Antworod adresverificatie systeem"
+"CVV2 Check Result by PayPal","CVV2 Controle Resultaat door PayPal"
 "International AVS response","Internationale AVS reactie"
 Complaint,Klacht
 Dispute,Geschil
+"Matched Address only (no ZIP)","Alleen overeenkomend adres (geen ZIP)"
 "Matched Address only (no ZIP) International","Alleen internationaal overeenkomstig adres (geen ZIP)"
+"No Details matched","Geen details gevonden"
+"No Details matched. International","Geen details gevonden. Internationaal"
 "Exact Match.","Exacte overeenkomst."
+"Exact Match. Address and Postal Code. International","Exacte overeenkomst. Adres en postcode. Internationaal"
+"Exact Match. Address and Postal Code. UK-specific","Exacte overeenkomst. Adres en postcode. UK specifiek"
+"N/A. Not allowed for MOTO (Internet/Phone) transactions","N/A. Niet toegestaan voor MOTO (Internet/Telefoon) transacties"
+"N/A. Global Unavailable","N/A. Globaal niet beschikbaar"
+"N/A. International Unavailable","N/A. Internationaal niet beschikbaar"
+"Matched five-digit ZIP only (no Address)","Alleen vijf cijfers: ZIP (geen adres)"
+"Matched Postal Code only (no Address)","Alleen gevonden Postcode (geen adres)"
+"N/A. Retry","N/A. Probeer opnieuw"
+"N/A. Service not Supported","N/A. Service niet ondersteund"
+"N/A. Unavailable","N/A. Niet beschikbaar"
 "Matched whole nine-digit ZIP (no Address)","Matcht de gehele negen-cijferige postcode (geen adres)"
 "Yes. Matched Address and five-digit ZIP","Ja. Matcht adres en vijf-cijferige postcode"
 "All the address information matched","Alle adresinformatie komt overeen"
 "None of the address information matched","De adresinformatie komt niet overeen"
+"Part of the address information matched","Een deel van de adresinformatie komt overeen"
+"N/A. The merchant did not provide AVS information","N/A. De handelaar heeft geen AVS-informatie verstrekt"
+"N/A. Address not checked, or acquirer had no response. Service not available","N/A. Adres niet gecontroleerd, of acquirer gaf geen reactie. Service niet beschikbaar"
 "No match","Geen match"
+"N/A. Not processed","N/A. Niet verwerkt"
+"N/A. Service not supported","N/A. Service niet ondersteund"
+"N/A. Service not available","N/A. Service niet beschikbaar"
+"N/A. No response","N/A. Geen reactie"
+"N/A. The merchant has not implemented CVV2 code handling","N/A. De handelaar heeft de CVV2 code-afhandeling niet geïmplementeerd"
+"N/A. Merchant has indicated that CVV2 is not present on card","N/A. Handelaar heeft aangegeven dat CVV2 niet aanwezig is op kaart"
 "Note: %1","Opmerking: %1"
 "IPN ""%1"". Case type ""%2"". Case ID ""%3"" %4","IPN '%1'. Zaak type '%2'. Zaak ID '%3' %4"
 "IPN ""%1"". A dispute has been resolved and closed. %2 Transaction amount %3.","IPN '%1'. Een geschil is opgelost en gesloten. %2 transactie bedrag %3."
@@ -7016,8 +7158,12 @@ Dispute,Geschil
 "You need an authorization transaction to void.","U heeft een verificatie-transactie nodig om te kunnen vernietigen."
 "We can't issue a refund transaction because there is no capture transaction.","Aangezien er geen transactie is van de overname, kunnen we een transactie niet terugbetalen."
 "We cannot create a target file for reading reports.","We kunnen geen doelbestand aanmaken om rapporten te lezen."
+"Report Date",Rapportdatum
+"Merchant Account","Handelaar Account"
 "Finish Date",Einddatum
 "Debit or Credit","Debit of Credit"
+"Gross Amount","Bruto bedrag"
+"Fee Debit or Credit","Vergoeding Debit of Credit"
 "ACH Deposit (Hold for Dispute or Other Investigation)","ACH Deposit (Houd vast for conflict of ander onderzoek)"
 "ACH Deposit (Reversal)","ACH Deposit (Herroeping)"
 "ACH Withdrawal","ACH Opname"
@@ -7031,6 +7177,12 @@ Dispute,Geschil
 "Debit Card Transaction","Debit Card transactie"
 "General (Authorization)","Algemeen (Authorisatie)"
 "General (Dividend)","Algemeen (Dividend)"
+"General Currency Conversion","Algemene valuta conversie"
+"General Funding of PayPal Account ","Algemene financiering van PayPal-rekening "
+"General Withdrawal from PayPal Account","Algemene opname van PayPal-account"
+"General. Product no longer supported","Algemeen. Product niet langer ondersteund"
+"General: Use of PayPal account for purchasing as well as receiving payments","Algemeen: gebruik van een PayPal-rekening om te kopen en om betalingen te ontvangen"
+"General: Withdrawal from PayPal Account","Algemeen: Opname van PayPal-account"
 "Mobile Payment (made via a mobile phone)","Mobiele Betaling (gedaan via een mobiele telefoon)"
 "Preapproved Payment (BillUser API, either sent or received","Vooraf goedgekeurde betaling (BillUser API, verzonden of ontvangen"
 Reauthorization,"Opnieuw autoriseren"
