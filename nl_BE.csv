@@ -7164,8 +7164,11 @@ Dispute,Geschil
 "Debit or Credit","Debit of Credit"
 "Gross Amount","Bruto bedrag"
 "Fee Debit or Credit","Vergoeding Debit of Credit"
+"Preapproved Payment ID","Vooraf goedgekeurde betalings-ID"
+"Subscription ID",Abonnement
 "ACH Deposit (Hold for Dispute or Other Investigation)","ACH Deposit (Houd vast for conflict of ander onderzoek)"
 "ACH Deposit (Reversal)","ACH Deposit (Herroeping)"
+"ACH Funding for Funds Recovery from Account Balance","ACH-financiering voor herstel van fondsen uit het account saldo"
 "ACH Withdrawal","ACH Opname"
 "Account-to-Account Payment, initiated by PayPal","Account-naar-Account Betaling, op initiatief van PayPal"
 "Auction Payment other than through eBay","Veilig-betaling anders dan via eBay"
@@ -7173,17 +7176,46 @@ Dispute,Geschil
 "Balance Manager Account Bonus","Balans beheerder account bonus"
 "Bonus for first ACH Use","Bonus voor eerste ACH gebruik"
 "Buyer Credit Payment","Koper kredietbetaling"
+"Currency Conversion required to cover negative balance","Valuta conversie vereist om negatieve saldo te dekken"
 "Debit Card Cash Back","Debit Card Terugbetaling"
 "Debit Card Transaction","Debit Card transactie"
+"Direct Payment API","Directe betalingsAPI"
+"EFT Funding (German banking)","EFT-financiering (Duitse bank)"
+"Express Checkout APIs","Express Checkout API's"
+Funding,Financiering
 "General (Authorization)","Algemeen (Authorisatie)"
 "General (Dividend)","Algemeen (Dividend)"
+"General (Funds Transfer from PayPal Account to Another)","Algemeen (Kredietoverschrift van PayPal-account naar een ander)"
+"General (Purchase with a credit card)","Algemeen (Koop met een creditcard)"
+"General Adjustment without businessrelated event","Algemene aanpassing zonder zakelijke activiteit"
 "General Currency Conversion","Algemene valuta conversie"
 "General Funding of PayPal Account ","Algemene financiering van PayPal-rekening "
 "General Withdrawal from PayPal Account","Algemene opname van PayPal-account"
 "General. Product no longer supported","Algemeen. Product niet langer ondersteund"
 "General: Use of PayPal account for purchasing as well as receiving payments","Algemeen: gebruik van een PayPal-rekening om te kopen en om betalingen te ontvangen"
 "General: Withdrawal from PayPal Account","Algemeen: Opname van PayPal-account"
+"General: Withdrawal to Non-Bank Entity","Algemeen: Opname naar niet-Bank entiteit"
+"General: adjustment of a type not belonging to the other T12xx categories","Algemene: aanpassing van een type dat niet tot de andere T12xx categorieën behoort"
+"General: bonus of a type not belonging to the other T08xx categories","Algemeen: bonus van een type dat niet tot de andere T08xx categorieën behoort"
+"General: event not yet categorized","Algemene: gebeurtenis nog niet gecategoriseerd"
+"General: non-payment fee of a type not belonging to the other T01xx categories","Algemeen: niet-betalingskosten van een type dat niet behoort tot de andere T01xx categorieën"
+"General: received payment of a type not belonging to the other T00xx categories","Algemene: ontvangen betaling van een type dat niet tot de andere T00xx categorieën behoort"
+"General: reversal of a type not belonging to the other T11xx categories","Algemeen: omkering van een type dat niet tot de andere T11xx categorieën behoort"
+"General: temporary hold of a type not belonging to the other T15xx categories","Algemeen: tijdelijke hold van een type dat niet tot de andere T15xx categorieën behoort"
+"Gift Certificate Payment: purchase of Gift Certificate","Cadeaubonnen betaling: aankoop van cadeaubon"
+"Gift Certificate Redemption","Cadeaubon inwisseling"
+"Hidden Virtual PayPal Debit Card Transaction","Verborgen Virtuele PayPal Debit Card transactie"
+"Hold for Dispute Investigation","Houd vast voor onderzoek naar Geschillen"
+Incentive,Incentief
+"Mass Pay Payment","Massa betaling"
+"Merchant Referral Bonus","Koopman Verwijzing Bonus"
 "Mobile Payment (made via a mobile phone)","Mobiele Betaling (gedaan via een mobiele telefoon)"
+"Negative Balance","Negatieve balans"
+"Open Authorization","Open autorisatie"
+"PayPal Balance Manager function of PayPal account","PayPal Balance Manager functie van PayPal-account"
+"PayPal Buyer Warranty Bonus","PayPal koper garantie Bonus"
+"PayPal Debit Card Withdrawal from ATM","PayPal Debit Card Opname van ATM"
+"PayPal Protection Bonus","PayPal Beschermings Bonus"
 "Preapproved Payment (BillUser API, either sent or received","Vooraf goedgekeurde betaling (BillUser API, verzonden of ontvangen"
 Reauthorization,"Opnieuw autoriseren"
 Void,"Nietig verklaard"
@@ -7442,6 +7474,18 @@ Gebruik de gratis banneradvertenties van PayPal waarmee u kunt adverteren voor P
 Het PayPal-advertentieprogramma heeft aangetoond extra aankopen te genereren en de gemiddelde aankoopomvang van consumenten met 15% te verhogen
 of meer. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank""> Details bekijken </a>."
 Large,Groot
+Shape,Vorm
+Color,Kleur
+"Product Pages",Productpagina
+"Cart Page","Pagina winkelwagen"
+"Mini Cart","Mini winkelwagentje"
+Features,Eigenschappen
+"Disable Funding Options","Opties voor financiering uitschakelen"
+"PayPal will automatically display each enabled funding option to eligible buyers.
+                                For example, PayPal Credit is only shown to buyers in countries where PayPal Credit is
+                                offered and the currency offered by the merchant is USD.","PayPal zal automatisch elke optie voor het beschikbaar stellen van de financiering aan de in aanmerking komende kopers weergeven.
+                                Bijvoorbeeld, PayPal Credit wordt alleen getoond aan de kopers in landen waar PayPal Credit
+                                is aangeboden en de valuta die de handelaar aanbiedt is USD."
 "Not you?","Bent u het niet?"
 "Your shopping cart has been updated with new prices.","Uw winkelwagen is bijgewerkt met de nieuwe prijzen."
 "Welcome, %1!","Welkom, %1!"
@@ -7489,6 +7533,7 @@ Price:,Prijs:
 "Product alerts Cron error","Product notificaties Cron error"
 "Product alerts cron warnings","Product notificaties cron waarschuwingen"
 "Products price changed alert","Notificatie product prijswijzigingen"
+"%name,","%naam,"
 "Products back in stock alert","Weer op voorraad notificatie"
 "Allow Alert When Product Price Changes","Melding toestaan bij prijswijziging"
 "Allow Alert When Product Comes Back in Stock","Melding toestaan als product weer op voorraad is"
@@ -7618,7 +7663,9 @@ Carts,Winkelwagens
 "Missing key ""sku"" in cart item data","Ontbrekende sleutel ""sku"" in artikelgegevens in winkelwagen"
 "Missing key ""qty"" in cart item data","Ontbrekende sleutel ""qty"" in artikelgegevens in winkelwagen"
 "Could not find a cart with ID ""%masked_cart_id""","Kan geen winkelwagen vinden met ID ""%masked_cart_id"""
+"Current user does not have an active cart.","Huidige klant heeft geen actieve winkelwagen."
 "The current user cannot perform operations on cart ""%masked_cart_id""","De huidige gebruiker kan geen bewerkingen uitvoeren op winkelwagen ""%masked_cart_id"""
+"Could not find a cart address with ID ""%cart_address_id""","Kan geen adres vinden met id ""%address_id"""
 "You cannot specify multiple shipping addresses.","U kunt niet meerdere verzendadressen opgeven."
 "The shipping address must contain either ""customer_address_id"" or ""address"".","Het verzendadres moet ""customer_address_id"" of ""adres"" bevatten."
 "The shipping address cannot contain ""customer_address_id"" and ""address"" at the same time.","Het verzendadres kan niet tegelijkertijd ""klant_address_id"" en ""adres"" bevatten."
@@ -8138,6 +8185,7 @@ undefined,"niet van toepassing"
 "Product %1 has been added to the requisition list %2.","Product %1 is toegevoegd aan bestellijst %2."
 "Options were updated. Please review available configurations.","Opties zijn bijgewerkt. Controleer de beschikbare configuraties."
 "Could not save Requisition List. Maximum number of requisition lists was exceeded.","Bestellijst kon niet worden opgeslagen. Maximum aantal bestellijsten werd overschreden."
+"Warning message.",Waarschuwingsbericht.
 "Could not save","Kan niet opslaan"
 "Add to Requisition List","Toevoegen aan bestellijst"
 "Update Requisition List","Update bestellijst"
@@ -8615,7 +8663,6 @@ Answers,Antwoorden
 "New Comment for RMA #%increment_id","Nieuwe commentaar voor RMA #%increment_id"
 "Customer %name has left a new comment:","Klant %name heeft een nieuwe opmerking achtergelaten:"
 "%store_name : New Return #%increment_id","%store_name: Nieuwe retour #%increment_id"
-"%name,","%naam,"
 "Your return request has been updated. Please see below.","Uw retourverzoek is bijgewerkt. Zie hieronder."
 "You can check the status of your return by <a href=""%account_url"">logging into your account</a> or <a href=""%form_url"">using your order number</a>.","U kan de status van uw retour bekijken door <a href=""%account_url"">in te loggen op uw account</a> of <a href=""%form_url"">door gebruik van uw bestelnummer</a>."
 "If you have any questions, please feel free to contact us at <a href=""mailto:%support_email"">%support_email</a> or by phone at %store_phone","Indien u nog vragen heeft, aarzel dan niet om ons te contacteren op <a href=""mailto:%support_email"">%support_email</a> of telefonisch op %store_phone"
@@ -9420,6 +9467,10 @@ Gebruikslimiet wordt alleen voor ingelogde klanten afgedwongen.                 
 "Category (Children Only)","Categorie (alleen kinderen)"
 "(Parent Only)","(Alleen ouder)"
 "(Children Only)","(Alleen kinderen)"
+"Your coupons are ready","Uw coupons zijn klaar"
+"You can check your coupons at sales rule page","U kunt uw coupons controleren op de verkoopregelpagina"
+"Error during coupons generator process occurred","Fout tijdens coupons generator proces opgetreden"
+"Error during coupons generator process occurred. Please check logs for detail","Fout tijdens coupons generator proces opgetreden. Controleer logs voor details"
 "An error occurred during processing; coupon with id %1 expiration date wasn't updated. The error message was: %2","Er is een fout opgetreden tijdens de verwerking; coupon met id %1, de vervaldatum is niet bijgewerkt. Het foutbericht was: %2"
 "The cart price rule will be removed from the update and all scheduled changes will be lost.","De winkelwagen prijsregel zal worden verwijderd uit de update en alle geplande wijzigingen zullen verloren gaan."
 "Remove Cart Price Rule from Campaign","Verwijder Winkelwagen Prijs Regel uit Campagne"
@@ -9429,11 +9480,13 @@ Gebruikslimiet wordt alleen voor ingelogde klanten afgedwongen.                 
 "The entity sequence profile wasn't added to the meta active profile. Verify the profile and try again.","Het entiteitsequentieprofiel is niet toegevoegd aan het meta-actieve profiel. Controleer het profiel en probeer het opnieuw."
 "File not found","Bestand niet gevonden"
 "Fatal Error","Fatale fout"
+Backorders,Nabestellingen
 "Use deferred Stock update","Gebruik uitgestelde update van voorraad"
 "Add Scheduled Export","Voeg geplande export toe"
 "Add Scheduled Import","Voeg geplande import toe"
 "Scheduled Import/Export","Geplande Import/Export"
 "Please correct the scheduled operation type.","Corrigeer het type van de geplande actie."
+"Server Type",Servertype
 "File Directory","Bestands Indexering"
 "For Type ""Local Server"" use relative path to Magento installation, e.g. var/export, var/import, var/export/some/dir","Voor type ""Local Server"" gebruik relatief pad naar Magento installatie, bijv. var/export, var/import, var/export/some/dir"
 "File Mode",Bestandsmodus
@@ -9792,6 +9845,7 @@ Explanation,Uitleg
 "Order tracking",Ordertracering
 "Tracking Number:",Trackingnummer:
 Carrier:,Vervoerder:
+"Tracking information is currently not available. Please ","Tracking-informatie is momenteel niet beschikbaar. Gelieve te gebruiken "
 "contact us","neem contact op"
 " for more information or "," voor meer informatie of "
 Info:,Informatie:
@@ -10960,10 +11014,15 @@ Variable,Variabel
 "Padded Flat-Rate Envelope","Padded vast-bedrag envelop"
 Rectangular,Rechthoekig
 Non-rectangular,"Niet rechthoekig"
+"Service type does not match","Service type komt niet overeen"
 Gift,Kado
 Machinable,Machinaal
 "First-Class Mail Parcel","First-Class Mail pakket"
 "Flat-Rate Box","Gelijk-tarief doos"
+"Standard Post","Standaard verzending"
+"Priority Mail Express Flat Rate Boxes","Vast tarief Priority Mail expres doos"
+"Priority Mail Express Flat Rate Boxes Hold For Pickup","Vast tarief Priority Mail expres doos - vasthouden voor afhalen"
+"Priority Mail Express International Flat Rate Boxes","Vast tarief Priority Mail Express International doos"
 "Add New Variable","Voeg nieuwe variabele toe"
 "Custom Variable ""%1""","Aangepaste variabele ""%1"""
 "New Custom Variable","Nieuwe aangepaste variabele"
@@ -10990,6 +11049,8 @@ Machinable,Machinaal
 "No payment tokens are available for the specified order payment.","Er zijn geen betalingtokens beschikbaar voor de opgegeven betaling van de order."
 "Credit Card was successfully removed","Creditkaart is succesvol verwijderd"
 "You have no credit cards.","U heeft geen Creditkaarten."
+"Specify the ""public_hash"" value.","Geef de ""public_hash"" waarde op."
+"Could not find a token using public hash: %1","Kan geen token vinden met publieke hash: %1"
 "Delete Current Hierarchy","Verwijder Huidige Hiërarchie"
 "Pages Hierarchy","Pagina Hiërarchie"
 "Page Properties","Pagina Eigenschappen"
@@ -11079,6 +11140,7 @@ Page:,Pagina:
 "CMS Hierarchy","CMS hiërarchie"
 "CMS Hierarchy Node Link","CMS hiërarchie node link"
 "Link to Specified CMS Hierarchy Node","Link naar gespecificeerde CMS Hiërarchie Node"
+Template,Sjabloon
 "Add selected page(s) to the tree.","Geselecteerde pagina('s) toevoegen aan de hiërarchie."
 "Version Control",Versiecontrole
 "Version Label","Versie label"
@@ -11202,6 +11264,7 @@ Logic,Logica
 Sort,Sorteer
 "Automatic Sorting","Automatisch sorteren"
 "Sort order",Sorteervolgorde
+"Wait loading...","Wachten op laden..."
 "Rule %1 does not exists","Regel %1 bestaat niet"
 "Consumer is not authorized to access %resources","Gebruiker is niet gemachtigd tot %resources"
 "Operation allowed only in HTTPS","Operatie kan enkel in HTTPS"
