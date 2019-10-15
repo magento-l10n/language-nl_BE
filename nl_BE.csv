@@ -7164,8 +7164,9 @@ Dispute,Geschil
 "Debit or Credit","Debit of Credit"
 "Gross Amount","Bruto bedrag"
 "Fee Debit or Credit","Vergoeding Debit of Credit"
+"Fee Amount","Bedrag van de vergoeding"
 "Preapproved Payment ID","Vooraf goedgekeurde betalings-ID"
-"Subscription ID",Abonnement
+"Subscription ID","Abonnement ID"
 "ACH Deposit (Hold for Dispute or Other Investigation)","ACH Deposit (Houd vast for conflict of ander onderzoek)"
 "ACH Deposit (Reversal)","ACH Deposit (Herroeping)"
 "ACH Funding for Funds Recovery from Account Balance","ACH-financiering voor herstel van fondsen uit het account saldo"
