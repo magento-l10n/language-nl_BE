@@ -62,6 +62,7 @@ notice,melding
 Close,Sluiten
 "See All (","Alles bekijken ("
 " unread)"," ongelezen)"
+"System Messages",Systeemberichten
 "Show Toolbar","Werkbalk weergeven"
 "Show List","Toon lijst"
 "Use HTTPS to Get Feed","Gebruik HTTPS om de feed op te halen"
@@ -105,9 +106,11 @@ Configure,Configureren
 "You must buy at least %1 of these per purchase.","U moet ten minste %1 van dit product aanschaffen per aankoop."
 "Specify the product's options.","Geef de productopties aan."
 "Alert me when this item is available.","Verwittig me wanneer dit product beschikbaar is."
+"This customer couldn't be found. Verify the customer and try again.","Deze klant kan niet worden gevonden. Controleer de klant en probeer het nogmaals."
 "Shopping cart management is disabled for this customer.","Het beheer van de winkelmand is uitgeschakeld voor deze klant."
 Customers,Klanten
 "Shopping Cart",Winkelwagen
+"An error occurred. For details, see the error log.","Er is een fout opgetreden. Voor details, raadpleeg het foutenlogboek."
 "You do not have access to this.","U heeft hier geen toegang toe."
 "An error has occurred. See error log for details.","Er is een fout opgetreden. Ga naar het logboek voor details."
 "You cannot configure a product.","U kunt geen product aanpassen."
@@ -139,6 +142,7 @@ Customers,Klanten
 "Yes, for Specified Customer Groups","Ja, voor specifieke klantengroepen"
 "Yes, for Everyone","Ja, voor iedereen"
 No,Nee
+"The file is corrupt and can't be used.","Het bestand is corrupt en kan niet worden gebruikt."
 "Please upload the file in .csv format.","Gelieve het bestand te uploaden in .csv formaat."
 "%1 item(s) need your attention.","%1 producten(en) vereisen uw aandacht."
 "Apply Coupon Code","Pas kortingscode toe"
@@ -302,6 +306,7 @@ Error,Foutmelding
 "Dismiss All Completed Tasks","Verwijder alle voltooide taken"
 "Action Details - #","Actiedetails - #"
 "Number of Records Affected","Aantal getroffen registraties"
+"The role wasn't found for the user. Verify the role and try again.","De rol is niet gevonden voor de gebruiker. Controleer de rol en probeer het opnieuw."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Er ging iets mis tijdens het samenstellen van een lijst van toegestane bronnen. U vindt meer informatie in het logboek van de uitzonderingen."
 "You created the order.","U heeft de order aangemaakt."
 "Order saving error: %1","Fout tijdens opslaan van order: %1"
@@ -394,10 +399,16 @@ Environment,Omgeving
 options,opties
 "Select all","Alles selecteren"
 "Deselect all","Alles deselecteren"
+"We couldn't find any records.","We konden geen records vinden."
+Show,Weergeven
+"per page","per pagina"
 "%s of %s selected","%s van %s geselecteerd"
+"Search by keyword","Zoeken op trefwoord"
+"This is a required field.","Dit is een verplicht veld."
 "B2B Features","B2B functies"
 "Invalid Form Key. Please refresh the page.","Ongeldige formuliersleutel. Ververs de pagina."
 "You entered an invalid Secret Key. Please refresh the page.","Er is een foute Secret Key ingevoerd. Gelieve de pagina te vernieuwen."
+"Invalid security or form key. Please refresh the page.","Ongeldige formuliersleutel. Ververs de pagina."
 "Cache Storage Management","Beheer cachegeheugen"
 "Flush Magento Cache","Maak de Magento Cache leeg"
 "The cache storage may contain additional data. Are you sure that you want to flush it?","De cache opslag kan extra informatie bevatten. Weet u zeker dat u ze wil leegmaken?"
@@ -514,11 +525,13 @@ To,Aan
 "Add New","Voeg nieuwe toe"
 "Invalid export type supplied for grid export block","Ongeldig exporttype opgegeven voor tabel exportblok"
 "Please correct the column format and try again.","Corrigeer de kolomindeling en probeer het opnieuw."
+"An item needs to be selected. Select and try again.","Een item moet worden geselecteerd. Selecteer en probeer het opnieuw."
 Submit,Bevestig
 "Unknown block type","Onbekende bloksoort"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Corrigeer de tabbladconfiguratie en probeer het opnieuw. Tab Id mag niet leeg zijn"
 "Please correct the tab configuration and try again.","Corrigeer de tabconfiguratie en probeer het opnieuw."
 "You have logged out.","U bent afgemeld."
+"These cache type(s) don't exist: %1","Deze cache-type(s) bestaan niet: %1"
 "The image cache was cleaned.","De afbeeldingscache werd leeggemaakt."
 "An error occurred while clearing the image cache.","Er is een fout opgetreden bij het vernieuwen van de afbeeldingen cache."
 "The JavaScript/CSS cache has been cleaned.","Het JavaScript/CSS cachegeheugen werd leeggemaakt."
@@ -573,6 +586,7 @@ System,Systeem
 "Before modifying the store view code please make sure it is not used in index.php.","Controleer voordat u de winkelaanzichtcode aanpast of deze niet gebruikt wordt in index.php."
 "New ","Nieuw "
 "All Stores","Alle winkels"
+"Please enable your Store View before using this Web Site as Default","Activeer uw winkelaanzicht voordat u deze website als standaard gebruikt"
 "You saved the website.","U heeft de website opgeslagen."
 "The default store cannot be disabled","De standaardwinkel kan niet worden uitgeschakeld"
 "You saved the store view.","Winkelaanzicht opgeslagen."
@@ -580,15 +594,24 @@ System,Systeem
 "You saved the store.","U heeft de winkel opgeslagen."
 "Something went wrong while saving. Please review the error log.","Er ging iets mis tijdens het opslaan. Raadpleeg het foutenlogboek."
 "Authentication storage is incorrect.","De bepaling van de voorraad is onjuist."
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","De account-aanmelding is onjuist of uw account is tijdelijk uitgeschakeld. Wacht even en probeer het later opnieuw."
+"An authentication error occurred. Verify and try again.","Er is een authenticatie fout opgetreden. Controleer en probeer het opnieuw."
+"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","De levensduur van de admin sessie is ongeldig. Stel de levensduur in op 31536000 seconden (één jaar) of korter en probeer het opnieuw."
+"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","De levensduur van de admin sessie is ongeldig. Stel de levensduur in op 60 seconden of langer en probeer het opnieuw."
 "Last 24 Hours","Laatste 24 uur"
 "Last 7 Days","Laatste 7 dagen"
 "Current Month","Huidige maand"
 Order,Bestelling
 "Order #%1","Bestelling #%1"
+"URL key ""%1"" matches a reserved endpoint name (%2). Use another URL key.","URL-sleutel ""%1"" komt overeen met een gereserveerde eindpunt naam (%2). Gebruik een andere URL-sleutel."
+"Save &amp; Continue","Opslaan en doorgaan"
+"Save &amp; Close","Opslaan en sluiten"
+"Save &amp; New","Opslaan en nieuw"
 "Sorry, you need permissions to view this content.","Helaas, je bent niet gemachtigd om deze inhoud te bekijken."
 "Next steps","Volgende stappen"
 "If you think this is an error, try signing out and signing in again.","Als u denkt dat dit niet klopt, probeert u zich dan af te melden en opnieuw aan te melden."
 "Contact a system administrator or store owner to gain permissions.","Neem contact op met een systeembeheerder of eigenaar van de winkel om rechten te verkrijgen."
+"Return to ","Keer terug naar "
 "previous page","vorige pagina"
 "Welcome, please sign in","Welkom, meld u aan"
 Username,Gebruikersnaam
@@ -622,9 +645,10 @@ Minute,Minuut
 "JavaScript may be disabled in your browser.","JavaScript is mogelijk uitgeschakeld in uw browser."
 "To use this website you must first enable JavaScript in your browser.","Om deze website te gebruiken moet u eerst JavaScript inschakelen in uw browser."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Dit is een demo winkel. U kunt de winkel bekijken en bestellingen plaatsen, maar niets zal worden verwerkt of verstuurd."
+"Privacy Policy",Privacybeleid
 "Report an Issue","Meld een probleem"
+Scope:,Bereik:
 "Stores Configuration",Winkelconfiguratie
-"Please confirm scope switching. All data that hasn't been saved will be lost.","Bevestig wijziging toepassing niveau. Alle gegevens die nog niet opgeslagen zijn, zullen verloren gaan."
 "Additional Cache Management","Extra cacheopties"
 "Flush Catalog Images Cache","Maak de cache van de afbeeldingencatalogus leeg"
 "Pregenerated product images files","Voorgegenereerde productafbeeldingsbestanden"
@@ -639,7 +663,6 @@ Images,Afbeeldingen
 "Additional Settings","Extra instellingen"
 "records found","records gevonden"
 selected,geselecteerd
-"per page","per pagina"
 "Previous page","Vorige pagina"
 "of %1","van %1"
 "Next page","Volgende pagina's"
@@ -653,7 +676,14 @@ selected,geselecteerd
 "The information in this tab has been changed.","De informatie in dit tabblad is gewijzigd"
 Loading...,"Bezig met laden..."
 "User Agent Rules","Regels voor de gebruikersverantwoordelijke"
+"User agent exceptions override product and CMS pages rules.","Uitzonderingen van de gebruikersagent overschrijven product en CMS pagina's regels."
+"Search strings are either normal strings or regular expressions (PCRE). They are matched in the same order as entered.","Zoek regels zijn of normale tekenreeksen of reguliere expressies (PCRE). Ze worden gevonden in dezelfde volgorde als ingevoerd."
+Examples,Voorbeelden
+"Use Default Value","Gebruik standaard waarde"
 "We could not detect a size.","We kunnen geen grootte detecteren."
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Bevestig wijziging toepassing niveau. Alle gegevens die nog niet opgeslagen zijn, zullen verloren gaan."
+"Warning message","Waarschuwing bericht"
+"This operation can take a long time","Deze bewerking kan lang duren"
 "Allow everything","Alles toestaan"
 "Magento Admin","Magento Site-beheer"
 "Global Search","Globale zoektocht"
@@ -663,6 +693,7 @@ Content,inhoud
 Elements,Elementen
 Design,Ontwerp
 Schedule,Rooster
+"Content translation","Vertaling inhoud"
 Settings,Instellingen
 Attributes,Attributen
 "Other Settings","Andere instellingen"
@@ -670,6 +701,13 @@ Attributes,Attributen
 "Connect Manager","Verbinding met de Manager"
 "Package Extensions",Pakketuitbreiding
 Tools,Instellingen
+"Clean Cache Actions","Schoon cache acties op"
+"Cache Types Management","Cache type beheer"
+"Toggle Cache Type","Schakel cache type"
+"Refresh Cache Type","Ververs cache type"
+"Catalog Images Cache","Catalogus afbeeldingen cache"
+"Flush Js/Css","Leeg Js/Css"
+"Flush Static Files","Leeg statische bestanden"
 Currency,Valuta
 Communications,Communicatie
 Services,Diensten
@@ -684,8 +722,16 @@ Advanced,Geavanceerd
 "Sales Representative",Vertegenwoordiger
 "Customer Support",Klantenservice
 Developer,Ontwikkelaar
+"Enable Template Path Hints for Storefront","Schakel template pad hints in voor winkelaanzicht"
+"Enable Hints for Storefront with URL Parameter","Hints voor winkelaanzicht met URL-parameter inschakelen"
+"Use URL parameter to enable template path hints for Storefront","Gebruik URL parameter om template pad hints voor winkelaanzicht in te schakelen"
+"Parameter Value","Parameter waarde"
+"Add the following parameter to the URL to show template hints ?templatehints=[parameter_value]","Voeg de volgende parameter toe aan de URL om template-hints weer te geven ?templatehints=[parameter_value]"
+"Enable Template Path Hints for Admin","Schakel template pad hints in voor Admin"
+"Add Block Class Type to Hints","Voeg block-class type naar hints in"
 "Template Settings","Template instellingen"
 "Allow Symlinks","Symlinks toestaan"
+"<strong class=""colorRed"">Warning!</strong> Enabling this feature is not recommended on production environments because it represents a potential security risk.","<strong class=""colorRed"">Waarschuwing!</strong> Het activeren van deze functionaliteit wordt niet aanbevolen in productieomgevingen omdat het mogelijk een beveiligingsrisico vormt."
 "Minify Html","Minify HTML"
 "Minification is not applied in developer mode.","Minification wordt niet toegepast in de ontwikkelaarsmodus."
 "Translate Inline","Inline vertaling"
@@ -701,6 +747,7 @@ Developer,Ontwikkelaar
 "Minify CSS Files","Minify CSS-bestanden"
 "Image Processing Settings","Instellingen verwerken afbeeldingen"
 "Image Adapter","Afbeelding Adapter"
+"When the adapter was changed, please flush Catalog Images Cache.","Als de adapter is veranderd, leeg dan de catalogus afbeeldingen cache."
 "Static Files Settings","Instellingen voor statische bestanden"
 "Sign Static Files","Statische bestanden ondertekenen"
 "Country Options",Landopties
@@ -729,10 +776,18 @@ City,Plaatsnaam
 "Mail Sending Settings",Mailinstellingen
 "Disable Email Communications","Schakel e-mailcommunicatie uit"
 Host,Hostnaam
+"For Windows server only.","Alleen voor Windows-server."
 "Port (25)","Poort (25)"
+"Please enter at least 0 and at most 65535 (For Windows server only).","Voer ten minste 0 en maximaal 65535 in (alleen voor Windows server)."
 "Set Return-Path","Ontvangstadres voor e-mails instellen."
 "Return-Path Email","Ontvangstadres voor e-mails."
+"Images Upload Configuration","Afbeeldingen upload configuratie"
 "Enable Frontend Resize","Frontend Resize Inschakelen"
+"Resize performed via javascript before file upload.","Formaat wijzigen uitgevoerd via javascript voor het uploaden van bestanden."
+"Maximum Width","Maximale breedte"
+"Maximum allowed width for uploaded image.","Maximale toegestane breedte voor geüploade afbeelding."
+"Maximum Height","Maximale hoogte"
+"Maximum allowed height for uploaded image.","Maximale toegestane hoogte voor geüploade afbeelding."
 Admin,Beheerder
 "Admin User Emails","Admin gebruikerse-mails"
 "Forgot Password Email Template","Wachtwoord e-mailsjabloon vergeten"
@@ -756,27 +811,37 @@ Security,Beveiliging
 "Enable Charts","Activeer grafieken"
 "Url Options",URL-opties
 "Add Store Code to Urls","Winkelcode aan URL's toevoegen"
+"<strong class=""colorRed"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).","<strong class=""colorRed"">Waarschuwing!</strong> Indien u een winkelcode in URLs gebruikt kan in sommige gevallen het systeem problemen ondervinden wanneer er URL's zonder winkelcodes voorkomen in diensten van derden (bv. Paypal etc.)."
 "Auto-redirect to Base URL","Auto-doorverwijzing naar de Basis URL"
+"I.e. redirect from http://example.com/store/ to http://www.example.com/store/","I.e. redirect van http://example.com/store/ naar http://www.example.com/store/"
 "Search Engine Optimization","Zoekmachine-optimalisatie (SEO)"
 "Use Web Server Rewrites","Gebruik webserver-rewrites"
 "Base URLs",Basisurl's
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. http://example.com/magento/","Elk van de velden staan volledig gekwalificeerde URL's die eindigen met ""/"" (slash) toe, bijv http://example.com/magento/"
 "Base URL",Basisurl
 "Specify URL or {{base_url}} placeholder.","Geef URL of {{base_url}} plaatsaanduiding op."
 "Base Link URL",Basislink-URL
+"May start with {{unsecure_base_url}} placeholder.","Kan beginnen met de {{unsecure_base_url}} placeholder."
 "Base URL for Static View Files","Basis url voor statische bestanden"
 "May be empty or start with {{unsecure_base_url}} placeholder.","Kan leeg zijn of starten met {{unsecure_base_url}} plaatsaanduiding."
 "Base URL for User Media Files","Basis url voor mediabestanden gebruiker"
 "Base URLs (Secure)","Base URL's (veilig)"
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. https://example.com/magento/","Elk van de velden staan volledig gekwalificeerde URL's die eindigen met ""/"" (slash) toe, bijv https://example.com/magento/"
 "Secure Base URL","Beveiligde Basis Url"
 "Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Geef URL of {{base_url}} of {{unsecure_base_url}} plaatsaanduiding."
 "Secure Base Link URL","Veilige basislink URL"
+"May start with {{secure_base_url}} or {{unsecure_base_url}} placeholder.","Kan beginnen met de {{secure_base_url}} of de {{unsecure_base_url}} placeholder."
 "Secure Base URL for Static View Files","Veilige basisURL voor statische bestanden"
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Mag leeg zijn of starten met {{secure_base_url}}, of {{unsecure_base_url}} aanduiding."
 "Secure Base URL for User Media Files","Velige basisurl voor mediabestanden van de gebruiker"
 "Use Secure URLs on Storefront","Gebruik beveiligde urls in winkelaanzicht"
+"Enter https protocol to use Secure URLs on Storefront.","Voer https protocol in om beveiligde URL's in de frontend te gebruiken."
 "Use Secure URLs in Admin","Gebruik beveiligde url's in admin"
+"Enter https protocol to use Secure URLs in Admin.","Voer https protocol in om beveiligde URL's in Admin te gebruiken."
 "Enable HTTP Strict Transport Security (HSTS)","Schakel HTTP strikte Transport Security (HSTS) in"
+"See <a href=""https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html"" target=""_blank"">HTTP Strict Transport Security</a> page for details.","Zie <a href=""https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html"" target=""_blank"">HTTP Strict Transport Security</a> pagina voor details."
 "Upgrade Insecure Requests","Werk onveilige verzoeken bij"
+"See <a href=""http://www.w3.org/TR/upgrade-insecure-requests/"" target=""_blank"">Upgrade Insecure Requests</a> page for details.","Zie <a href=""http://www.w3.org/TR/upgrade-insecure-requests/"" target=""_blank"">Upgrade Insecure verzoeken</a> pagina voor details."
 "Default Pages",Standaardpagina's
 "Default Web URL",Standaard-web-URL
 "Default No-route URL","Standaard-URL Niet gevonden"
@@ -842,6 +907,7 @@ successful,geslaagd
 "The backup file handler was unspecified.","Back-up bestand handler is niet gedefinieerd."
 "Something went wrong while writing to the backup file ""%1"".","Er ging iets mis tijdens het schrijven naar het back-up bestand ""%1""."
 "We can't save the Cron expression.","We kunnen de Cron opdracht niet opslaan."
+"Backup functionality is disabled","Back-up functionaliteit is uitgeschakeld"
 "You will lose any data created since the backup was made, including admin users, customers and orders.","U verliest alle gegevens die aangemaakt of gewijzigd zijn nadat de back-up gemaakt is, inclusief gegevens betreffende administratieve gebruikers, klanten en bestellingen."
 "Are you sure you want to continue?","Weet u zeker dat u door wilt gaan?"
 "This may take a few moments.","Dit kan enkele ogenblikken duren."
@@ -864,7 +930,10 @@ Exclude,"Sluit uit"
 "Magento root directory","Magento root folder"
 "Create Backup","Backup maken"
 Rollback,Terugdraaien
+"Backup Settings","Back-up Instellingen"
+"Enable Backup","Back-up inschakelen"
 "Enable Scheduled Backup","Geplande backup inschakelen"
+"Scheduled Backup Type","Gepland back-up type"
 Frequency,Frequentie
 "Maintenance Mode",Onderhoudsmodus
 "Are you sure you want to delete the selected backup(s)?","Weet u zeker dat u de geselecteerde backup(s) wilt verwijderen?"
@@ -877,6 +946,7 @@ Download,Downloads
 "Delete Dynamic Block","Dynamisch Blok Verwijderen"
 "Save and Continue Edit",Toepassen
 "New Dynamic Block","Nieuw Dynamisch Blok"
+Reset,Herstel
 "Default Content","standaard inhoud"
 "No Default Content","Geen standaard inhoud"
 "Dynamic Block Default Content for All Store Views","Dynamisch blok standaard content voor alle winkelaanzichten"
@@ -912,8 +982,12 @@ Position,Positie
 "This dynamic block does not exist.","Dit dynamisch blok bestaat niet."
 "You saved the dynamic block.","U heeft het dynamisch blok opgeslagen."
 "We cannot save the dynamic block.","We kunnen het dynamische blok niet opslaan."
+"Invalid Request","Ongeldige aanvraag"
 "Please enter a name.","Voer een naam in."
+"Content includes restricted HTML elements. %1","Inhoud bevat beperkte HTML-elementen. %1"
+"Make sure that dynamic blocks rotator does not reference the dynamic block itself.","Zorg ervoor dat dynamische blokken rotator niet verwijst naar het dynamische blok zelf."
 "-- None --","-- Niets --"
+"Invalid content","Ongeldige inhoud"
 "Content Area","Content gebied"
 Footer,onderschrift
 "Left Column","Linker kolom"
@@ -932,7 +1006,17 @@ Footer,onderschrift
 "One at the time, Series","een tegelijk, in een serie"
 "One at the time, Shuffle","een tegelijk, door elkaar"
 "Specify Dynamic Blocks","Opgegeven dynamische blokken"
+"Dynamic Block Template","Dynamisch blok template"
 "Dynamic Block Inline Template","Inline template dynamisch blok"
+"Status Label",Statuslabel
+"General Information","Algemene informatie"
+"Enable Dynamic Block","Schakel dynamisch blok In"
+"Use Default Value","Standaardwaarde gebruiken"
+"Cart price rules allows you to setup promotions for items that are in the shopping cart.","Winkelwagen prijsregels maakt het mogelijk promoties in te stellen voor artikelen die in het winkelwagentje zitten."
+"Add Cart Price Rules","Prijsregels voor winkelwagen toevoegen"
+"Related Catalog Price Rule","Gerelateerde catalogus prijsregel"
+"Catalog price rules allows you to setup promotions for an items in catalog.","Met catalogusprijsregels kunt u promoties instellen voor artikelen in de catalogus."
+"Add Selected","Geselecteerde toevoegen"
 Visibility,Zichtbaarheid
 "All Segments","Alle segmenten"
 "Customer Segment",Klantsegment
@@ -1192,7 +1276,6 @@ Fixed,Vast
 "Add Products to Option","Voeg producten toe aan Optie"
 "Delete Option","Verwijder optie"
 "What are you looking for?","Wat zoekt u?"
-"Use Default Value","Gebruik standaard waarde"
 "There is no defined renderer for ""%1"" option type.","Er is geen weergave gedefinieerd voor optietype ""%1""."
 "Could not save child: ""%1""","Kan kind niet opslaan: ""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Product met opgegeven art.nr: '%1' bevat geen optie: '%2'"
@@ -1614,7 +1697,6 @@ message,bericht
 "Customer Group",Klantengroep
 "Special Price From","Speciale prijs vanaf"
 "Product Alerts",Product-notificaties
-"Add Selected","Geselecteerde toevoegen"
 "Select Attribute","Selecteer Attribuut"
 "Create New Attribute","Nieuw attribuut aanmaken"
 "Customizable Options","Aanpasbare opties"
@@ -1644,7 +1726,6 @@ message,bericht
 name,naam
 "Copy Data from","Kopieer gegevens van"
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","Als er geen aangepaste bovenliggende categorieën zijn, gebruik dan de standaard bovenliggende categorie. U kunt de categorie op elk moment wijzigen in <a href=""%1"" target=""_blank"">Producten > Categorieën</a>."
-"This operation can take a long time","Deze bewerking kan lang duren"
 "Collapse All","Alles inklappen"
 "Expand All","Alles uitklappen"
 "Please confirm site switching. All data that hasn't been saved will be lost.","Bevestig sitewissel. Alle gegevens die nog niet opgeslagen zijn, zullen verloren gaan."
@@ -2000,10 +2081,8 @@ End,Einde
 "Allow Qty Below 0 and Notify Customer","Aantal onder 0 toestaan en klant inlichten"
 "Unable to remove Stock with id ""%1""","Kan Stock niet verwijderen met id ""%1"""
 "Unable to remove Stock Status for product %1","Kan Stock Status niet verwijderen voor product %1"
-"Not all of your products are available in the requested quantity.","Niet al uw producten zijn beschikbaar in het gevraagde aantal."
-"The fewest you may purchase is %1.","Het minimale dat u kunt bestellen is %1."
 "Please correct the quantity for some products.","Corrigeer het aantal voor sommige producten."
-"The most you may purchase is %1.","Het meeste dat u kunt kopen is %1."
+"The fewest you may purchase is %1.","Het minimale dat u kunt bestellen is %1."
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals u gevraagd heeft, maar we zullen de resterende %2 naleveren."
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals u gevraagd heeft, maar we zullen de resterende %2 naleveren."
 "You can buy %1 only in quantities of %2 at a time.","U kunt %1 alleen in hoeveelheden van %2 kopen in één keer."
@@ -2157,14 +2236,15 @@ Path,Pad:
 "Catalog Products List","Catalogus Producten lijst"
 "List of Products","Lijst van producten"
 "Products Grid Template","Producten raster sjabloon"
-"Invalid method: %1","Ongeldige methode: %1"
 "My Cart (1 item)","Winkelwagen (1 product)"
 "My Cart (%1 items)","Winkelwagen (%1 producten)"
 "My Cart",Winkelwagen
+"%1: Line %2","%1: Regel %2"
 "For delivery questions.","Voor vragen over de aflevering."
 "Customer is already registered","Klant is al geregistreerd"
 "Your session has expired","Uw sessie is verlopen"
 "A letter with further instructions will be sent to your email.","Een bericht met verdere instructies zal worden verzonden naar uw e-mailadres."
+"Please select at least one product to add to cart","Selecteer ten minste één product om toe te voegen aan winkelwagen"
 "We cannot configure the product.","We kunnen het product niet configureren."
 "You used coupon code ""%1"".","U heeft kortingscode ""%1"" gebruikt."
 "You canceled the coupon code.","U heeft de kortingscode geannuleerd."
@@ -2172,16 +2252,21 @@ Path,Pad:
 "We can't remove the item.","Het product kan niet verwijderd worden."
 "%1 was updated in your shopping cart.","%1 is bijgewerkt in uw winkelwagen."
 "We can't update the item right now.","Het product kon niet worden bijgewerkt."
+"Page Not Found","Pagina niet gevonden"
 "Something went wrong while saving the page. Please refresh the page and try again.","Er ging iets mis tijdens het opslaan van de pagina. Ververs de pagina en probeer het opnieuw."
 "We can't update the shopping cart.","We kunnen uw winkelwagen niet bijwerken."
 "One-page checkout is turned off.","One-page checkout is uitgeschakeld."
 "Guest checkout is disabled.","Gast-kassa is uitgeschakeld."
 Checkout,Afrekenen
 "Page not found.","Pagina niet gevonden."
+"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","De bestelling is niet geplaatst. Ga eerst akkoord met de algemene voorwaarden en probeer daarna uw bestelling opnieuw te plaatsen."
 "Something went wrong while processing your order. Please try again later.","Er ging iets mis tijdens het verwerken van uw bestelling. Probeer het later nog eens."
+"An unspecified error occurred. Please contact us for assistance.","Een niet nader gekende fout deed zich voor. Neem contact met ons op voor hulp."
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 breidt \Magento\Checkout\CustomerData\ItemInterface niet uit"
 "Payment Method",Betaalmethode
 "Payment Page",Betaalpagina
+"Please provide CAPTCHA code and try again","Geef CAPTCHA code op en probeer het opnieuw"
+"The product wasn't found. Verify the product and try again.","Het product is niet gevonden. Controleer het product en probeer het opnieuw."
 "We found an invalid request for adding product to quote.","We vonden een ongeldige aanvraag om het product toe te voegen aan de offerte."
 "The product does not exist.","Het artikel bestaat niet"
 "We don't have some of the products you want.","We hebben niet alle producten die u wenst."
@@ -2191,8 +2276,12 @@ Checkout,Afrekenen
 "This quote item does not exist.","Dit offerteproduct bestaat niet."
 "Display number of items in cart","Aantal producten in winkelwagen tonen"
 "Display item quantities","Artikel aantallen tonen"
+"The shipping information was unable to be saved. Error: ""%message""","De verzendinformatie kon niet worden opgeslagen. Fout: ""%message"""
+"The shipping information was unable to be saved. Verify the input data and try again.","De verzendinformatie kon niet worden opgeslagen. Controleer de ingevoerde gegevens en probeer het nogmaals."
 "Carrier with such method not found: %1, %2","Vervoerder met dergelijke methode niet gevonden: %1, %2"
 "The shipping method is missing. Select the shipping method and try again.","De verzendmethode ontbreekt. Selecteer de verzendmethode en probeer het opnieuw."
+"The shipping address is missing. Set the address and try again.","Het verzendadres ontbreekt. Stel het adres in en probeer het opnieuw."
+"The shipping method can't be set for an empty cart. Add an item to cart and try again.","De verzendmethode kan niet worden ingesteld voor een lege winkelwagen. Voeg een artikel toe aan de winkelwagen en probeer het opnieuw."
 " item"," product"
 " items"," producten"
 "Totals calculation is not applicable to empty cart","Totalenberekening geldt niet voor lege winkelwagen"
@@ -2203,6 +2292,7 @@ Checkout,Afrekenen
 "Sorry, guest checkout is not available.","Afrekenen zonder account is niet mogelijk."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","U moet uw account bevestigen. Controleer uw email voor de bevestigingslink of <a href=""%1""> Klik hier</a> voor een nieuwe link."
 "Load customer quote error","Fout bij laden van klant-offerte"
+"Invalid method: %1","Ongeldige methode: %1"
 Error!,Fout!
 "DB exception","DB uitzondering"
 "Print receipt","Ontvangstbewijs afdrukken"
@@ -2241,35 +2331,46 @@ Total:,Totaal:
 "My billing and shipping address are the same","Factuur- en verzendadres zijn hetzelfde"
 Update,Bijwerken
 "Save in address book","Opslaan in adresboek"
+"Sorry, no quotes are available for this order at this time","Er zijn op dit moment geen offertes beschikbaar voor deze order"
 "Estimated Total","Winkelwagen subtotaal"
 "You can create an account after checkout.","U kunt een account maken na het afrekenen."
 "You already have an account with us. Sign in or continue as guest.","U heeft al een account bij ons. Log in of ga door zonder account."
 Login,"Log in"
 "Items in Cart","Producten in winkelwagen"
 "Item in Cart","Product in winkelwagen"
+"Recently added item(s)","Recent toegevoegd(e) producten"
 "View and Edit Cart","Bekijk en bewerk winkelwagen"
 "See Details","Bekijk details"
 "Options Details","Optie Details"
 "Cart Subtotal","Winkelwagen subtotaal"
+"No Payment Methods","Geen betaalmethodes"
 "No Payment method available.","Geen betaalmethode beschikbaar."
 "You can track your order status by creating an account.","Door het aanmaken van een account, kunt u de status van uw bestelling bijhouden."
+"Create an Account","Account aanmaken"
 "Forgot an Item?","Iets vergeten?"
 "Edit Your Cart","Ga terug naar uw winkelwagen"
 "Ship Here","Hier naartoe verzenden"
+"Select Method","Selecteer methode"
+"Method Title","Titel methode"
+"Carrier Title","Titel van de vervoerder"
 "Ship To:","Verzenden naar:"
 edit,bewerken
 "Shipping Address",Bezorgadres
 "New Address","Nieuw Adres"
+"Shipping Methods",Verzendmethoden
 "Order Summary","Overzicht van bestelling"
 "Provided Zip/Postal Code seems to be invalid.","Opgegeven postcode lijkt ongeldig."
 " Example: "," Voorbeeld: "
 "If you believe it is the right one you can ignore this notice.","Als u denkt dat het de juiste is, kunt u deze mededeling negeren."
 "Field ","Veld "
 " is required."," is verplicht."
+"Something went wrong with your request. Please try again later.","Er ging iets mis met uw verzoek. Probeer het later opnieuw."
+"Are you sure you want to remove all items from your shopping cart?","Weet u er zeker dat u alle producten wilt verwijderen uit de winkelwagen?"
 "Are you sure you would like to remove this item from the shopping cart?","Weet u zeker dat u dit product wilt verwijderen uit de winkelwagen?"
 "Review & Payments","Overzicht & betalen"
 "Select a new payment method","Selecteer een nieuwe betaalmethode"
 "Save Address","Adres opslaan"
+"Please specify a regionId in shipping address.","Geef een regionId op in het verzendadres."
 "Checkout Options",Betaalopties
 "Enable Onepage Checkout","OnePageCheckout (standaard Checkout) activeren"
 "Allow Guest Checkout","Afrekenen als gast toestaan"
@@ -2279,8 +2380,11 @@ edit,bewerken
 "After Adding a Product Redirect to Shopping Cart","Winkelmandje tonen na toevoegen van een product"
 "Number of Items to Display Pager","Aantal items om paginering weer te geven"
 "Show Cross-sell Items in the Shopping Cart","Toon Cross-sell items in de Winkelwagen"
+"Enable Clear Shopping Cart","Schakel Leeg Winkelwagen in"
 "My Cart Link",Winkelwagenlink
 "Display Cart Summary","Winkelwagen-samenvatting weergave"
+"Mini Cart","Mini winkelwagen"
+"Display Mini Cart","Toon mini-winkelwagen"
 "Number of Items to Display Scrollbar","Aantal items om scrollbar weer te geven"
 "Maximum Number of Items to Display","Maximaal aantal items om weer te geven"
 "Payment Failed Emails","E-mails over mislukte betaling"
@@ -2294,6 +2398,7 @@ edit,bewerken
 "We'll send your order confirmation here.","We sturen de bevestiging van de bestelling hiernaar toe."
 Payment,Betaling
 "Not yet calculated","Nog niet berekend"
+"The order was not successful!","De bestelling was niet succesvol!"
 "Thank you for your purchase!","Bedankt voor uw bestelling!"
 "Terms and Conditions","Algemene Voorwaarden"
 "Add New Condition","Nieuwe voorwaarde toevoegen"
@@ -2321,6 +2426,9 @@ Sales,Verkopen
 "Something went wrong while saving this condition.","Er ging iets fout bij het opslaan van deze Algemene Voorwaarden."
 Automatically,Automatisch
 Manually,Handmatig
+"The ""%1"" checkout agreement couldn't be saved.","De ""%1"" checkout overeenkomst kon niet worden opgeslagen."
+"The ""%1"" checkout agreement couldn't be removed.","De ""%1"" checkout overeenkomst kon niet verwijderd worden."
+"A checkout agreement with the ""%1"" specified ID wasn't found. Verify the ID and try again.","Een checkout overeenkomst met de ""%1"" opgegeven ID is niet gevonden. Controleer het ID en probeer het opnieuw."
 "Terms & Conditions","Algemene voorwaarden"
 "Enable Terms and Conditions","Algemene Voorwaarden activeren"
 "Preview Quote Lifetime (minutes)","Voorvertoning quota levensduur (minuten)"
@@ -2333,12 +2441,16 @@ Manually,Handmatig
 Created,Aangemaakt
 Modified,Gewijzigd
 "Media Storage","Media opslag"
+Cancel,Annuleren
 "Delete Folder","Map verwijderen"
+"Delete Selected","Selectie verwijderen"
+"Create Folder","Map aanmaken"
 "New Folder Name:","Nieuwe mapnaam"
 "Are you sure you want to delete this folder?","Weet u zeker dat u deze map wilt verwijderen?"
 "Are you sure you want to delete this file?","Weet u zeker dat u dit bestand wilt verwijderen?"
 "Images (%1)","Afbeeldingen (%1)"
 "Storage Root","Opslag root"
+"The CMS block with identifier ""%identifier"" is not enabled.","Het CMS-blok met identifier ""%identifier"" is niet ingeschakeld."
 "You deleted the block.","Het blok is verwijderd."
 "We can't find a block to delete.","Blok om te verwijderen niet gevonden."
 "This block no longer exists.","Dit blok bestaat niet langer meer"
@@ -2361,28 +2473,47 @@ Pages,Pagina's
 "To apply changes you should fill in hidden required ""%1"" field","Om de wijzigingen toe te passen dient u het verborgen benodigde veld ""%1"" in te vullen"
 "You saved the page.","Pagina opgeslagen."
 "You duplicated the page.","U heeft de pagina gedupliceerd."
+"Wrong request.","Verkeerd verzoek."
 "Directory %1 is not under storage root path.","Map %1 is niet opgeslagen onder het hoofdpad"
+"Can't create %1 as subdirectory of %2, you might have some permission issue.","Kan %1 niet als submap van %2 aanmaken, mogelijk heeft u een probleem met rechten."
 "Make sure that static block content does not reference the block itself.","Zorg ervoor dat de inhoud van een statisch blok niet naar zichzelf verwijst."
+"Content field contains restricted HTML elements. %1","Inhoudveld bevat beperkte HTML-elementen. %1"
+"The CMS block with the ""%1"" ID doesn't exist.","CMS blok met id ""%1"" bestaat niet."
 "Enabled by Default","Standaard ingeschakeld"
 "Disabled by Default","Standaard uitgeschakeld"
 "Disabled Completely","Volledig uitgeschakeld"
+"The CMS page with the ""%1"" ID doesn't exist.","CMS pagina met id ""%1"" bestaat niet."
 "This identifier is reserved for ""CMS No Route Page"" in configuration.","Deze identifier is gereserveerd voor ""CMS geen Route pagina"" in configuratie."
 "This identifier is reserved for ""CMS Home Page"" in configuration.","Deze identifier is gereserveerd voor ""CMS Home Pagina"" in configuratie."
 "This identifier is reserved for ""CMS No Cookies Page"" in configuration.","Deze identifier is gereserveerd voor ""CMS Geen Cookies Pagina"" in configuratie."
+"Content HTML contains restricted elements. %1","Inhoud bevat beperkte HTML-elementen. %1"
+"You are not allowed to change CMS pages design settings","U bent niet toegestaan om CMS pagina's ontwerp instellingen te wijzigen"
+"Invalid Custom Layout Update selected","Ongeldige aangepaste lay-out update geselecteerd"
+"Page ""%id"" doesn't have custom layout assigned","Pagina ""%id"" heeft geen aangepaste lay-out toegewezen"
 "Could not save the page: %1","Kon pagina niet opslaan: %1"
 "Could not delete the page: %1","Kon pagina niet verwijderen: %1"
+"The value specified in the URL Key field would generate a URL that already exists.","De waarde gespecificeerd in het URL-key veld zou een URL genereren die al bestaat."
+"Required field ""%1"" is empty.","Vereist veld ""%1"" is leeg."
+"Layout update is invalid","Lay-out update is ongeldig"
+"Custom layout update is invalid","Aangepaste lay-out update is ongeldig"
 "A block identifier with the same properties already exists in the selected store.","Een block identifier met dezelfde eigenschappen bestaat reeds."
+"The page URL key can't use capital letters or disallowed symbols. Remove the letters and symbols and try again.","De URL van de pagina kan geen hoofdletters of niet-toegestane symbolen bevatten. Verwijder de letters en symbolen en probeer het opnieuw."
 "We found a directory with the same name. Please try another folder name.","We vonden een map met dezelfde naam. Probeer een andere map naam."
 "We cannot create a new directory.","We kunnen geen nieuwe map aanmaken."
 "We cannot delete directory %1.","We kunnen map %1 niet verwijderen."
 "We can't upload the file right now.","Wij kunnen het bestand nu niet uploaden."
 "We can't delete root directory %1 right now.","Wij kunnen de hoofddirectory %1 nu niet verwijderen."
 "Privacy and Cookie Policy","Privacy en Cookie Policy"
+"Error message",Foutmelding
 "Could not create a directory.","Kon geen map aanmaken."
+"Invalid format","Ongeldig formaat"
+"Invalid html","Ongeldige html"
 "Are you sure you want to delete a %1 record?","Weet u zeker dat u een %1 record wilt verwijderen?"
 View,Bekijk
 "No files found","Geen bestanden gevonden"
+"Upload Images","Afbeeldingen uploaden"
 "Save Page","Pagina opslaan"
+"Edit Page Design","Pagina-ontwerp bewerken"
 "Media Gallery",Mediagallerij
 "Content Management",CMS-instellingen
 "CMS Home Page","CMS thuispagina"
@@ -2408,7 +2539,6 @@ View,Bekijk
 Block,Blokkeer
 "Select Block...","Selecteer blok..."
 "CMS Static Block Default Template","CMS Statisch Block > Standaard sjabloon"
-"General Information","Algemene informatie"
 "Enable Block","Blok inschakelen"
 "Block Title",Bloktitel
 "Are you sure you want to delete selected items?","Weet u zeker dat u de geselecteerde items wilt verwijderen?"
@@ -2416,6 +2546,18 @@ Block,Blokkeer
 "Enable Page","Pagina inschakelen"
 "Content Heading","Content Titel"
 "Page in Websites","Pagina in Websites"
+"Custom Layout Update","Aangepaste lay-out update"
+"
+                        List of layout files with an update handle ""selectable""
+                        matching *PageIdentifier*_*UpdateID*.
+                        <br/>
+                        See Magento documentation for more information
+                    ","
+                        Lijst van lay-out bestanden met een update handvat ""selectable""
+                        overeenkomend met *PageIdentifier*_*UpdateID*.
+                        <br/>
+                        Zie Magento documentatie voor meer informatie
+                    "
 "Custom Design Update","Aangepaste ontwerp Update"
 "New Layout","Nieuwe lay-out"
 "Custom design from","Aangepast ontwerp van"
@@ -2424,7 +2566,6 @@ Block,Blokkeer
 "Custom Layout","Custom lay-out"
 """identifiers"" of CMS blocks should be specified","""identifiers"" van CMS-blokken moeten worden opgegeven"
 """Page id should be specified","De waarde ""page id"" moet worden opgegeven"
-"The CMS block with the ""%1"" ID doesn't exist.","CMS blok met id ""%1"" bestaat niet."
 "The block will be removed from the update and all scheduled changes will be lost.","Het blok zal worden verwijderd uit de update en alle geplande wijzigingen zullen verloren gaan."
 "Remove CMS page from Update","Verwijder CMS pagina van Update"
 "Search Engine Optimisation","Zoekmachine-optimalisatie (SEO)"
@@ -2548,7 +2689,6 @@ Blocked,Geblokkeerd
 "Exception message",Foutmelding
 phrase,zin
 "Localized Exception.","Localizatie Fout."
-"Error message",Foutmelding
 "No such entity.","Entiteit bestaat niet."
 "error message",foutmelding
 "Could not save role","Kan rol niet opslaan"
@@ -2576,7 +2716,6 @@ Company:,Bedrijf:
 "Add User","Gebruiker toevoegen"
 "Add Team","Team toevoegen"
 "Edit Selected","Selectie bewerken"
-"Delete Selected","Selectie verwijderen"
 "Team Title","Team naam"
 "You don't have a company account yet.","U heeft nog geen zakelijk account."
 "VAT/TAX ID: ","BTW-nummer: "
@@ -2586,7 +2725,6 @@ Contacts,Contacten
 "Role Permissions","Rol rechten"
 "Save Role","Rol opslaan"
 "Add New User","Nieuwe gebruiker toevoegen"
-"Create an Account","Account aanmaken"
 "This action will replace your Company Admin.","Deze actie vervangt uw bedrijfsbeheerder."
 "* Your latest changes on the company profile have not been saved yet.","* Uw laatste wijzigingen in het bedrijfsprofiel zijn nog niet opgeslagen."
 "Dear %name,","Beste %name,"
@@ -2777,7 +2915,6 @@ Reverted,Terugstellen
                          Klanten kunnen geen bestellingen plaatsen totdat u de kredietvaluta heeft bijgewerkt."
 "Store Credit",Winkeltegoed
 "Refund to Company Credit","Terugstorten naar bedrijfskrediet"
-"An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity.","Een factuur voor deelhoeveelheden kan niet worden afgegeven voor deze bestelling. Als u wilt doorgaan, wijzigt u de opgegeven hoeveelheid in de volledige hoeveelheid."
 "We refunded %1 online.","We hebben %1 online terugbetaald."
 "We refunded %1 offline.","We hebben %1 offline terugbetaald."
 "We refunded %1 to the company credit.","We hebben %1 terugbetaald naar het bedrijfskrediet."
@@ -2819,7 +2956,6 @@ Reverted,Terugstellen
 "The Payment on Account method is not available in the selected currency. Please contact the seller.","Betaal op rekening is niet beschikbaar voor de geselecteerde valuta. Neem contact op met de verkoper."
 "Company credit account will be charged: ","Bedrijfskrediet wordt in rekening gebracht: "
 "Cancel the Order","Annuleer bestelling"
-"This is a required field.","Dit is een verplicht veld."
 "{oldCur}/{newCur} Rate","{oldCur}/{newCur} Koers"
 Reimburse,Vergoeden
 "Please use only letters (a-z or A-Z), numbers (0-9), dash (-) or slash (/) in this field.","Gebruik alleen letters (a-z of A-Z), cijfers (0-9), streepje (-) of schuine streep (/) in dit veld."
@@ -3020,13 +3156,13 @@ U moet een een simpel product aanmaken voor elke configuratie (Ex: een product v
 "Create Product Configurations","Productconfiguraties aanmaken"
 "Buy %1 for %2 each and","Koop %1 voor %2 per stuk en"
 save,bewaar
+"Disable Product","Product uitschakelen"
+"Enable Product","Product inschakelen"
 "New Product Review","Nieuwe Productreview"
 "Here are the products you're about to create.","Overzicht van de producten die u gaat aanmaken."
 "You created these products for this configuration.","Deze producten zijn aangemaakt voor deze configuratie."
 "Disassociated Products","Niet-gekoppelde producten"
 "These products are not associated.","Deze producten zijn niet gekoppeld."
-"Disable Product","Product uitschakelen"
-"Enable Product","Product inschakelen"
 "An attribute has been removed. This attribute will no longer appear in your configurations.","Een attribuut is verwijderd. Dit attribuut zal niet langer worden weergegeven in uw configuraties."
 "Select options for all attributes or remove unused attributes.","Selecteer opties voor alle attributen of verwijder ongebruikte attributen."
 "Choose this option to delete and replace extension data for all past configurations.","Kies deze optie om extension-data voor alle historische configuraties te verwijderen en te vervangen."
@@ -3202,7 +3338,6 @@ Unlock,Deblokkeer
 "We're unable to send the password reset email.","We kunnen de wachtwoordherstel e-mail niet verzenden."
 "Please enter your email.","Voer uw e-mailadres in."
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Als er een account is gekoppeld aan %1, ontvangt u een e-mail met een link om uw wachtwoord opnieuw instellen."
-"An unspecified error occurred. Please contact us for assistance.","Een niet nader gekende fout deed zich voor. Neem contact met ons op voor hulp."
 "A login and a password are required.","Gebruikersnaam en wachtwoord zijn verplicht."
 "New Password and Confirm New Password values didn't match.","Het nieuwe wachtwoord en de bevestiging van het nieuwe wachtwoord komen niet overeen."
 "Please enter a new password.","Voer een nieuw wachtwoord."
@@ -4283,6 +4418,10 @@ Generate,Genereren
 "Low Code Pool Threshold","Low Code Pool drempel"
 "IMPORTANT: Be sure to save your configuration before running generation process.","BELANGRIJK: Zorg dat uw configuratie oplaat voordat u het generatie proces draait."
 "Are you sure you want to delete these gift card accounts?","Bent u zeker dat u deze cadeaubon accounts wil verwijderen?"
+"Gift messages can't be used for an empty cart. Add an item and try again.","Cadeauberichten kunnen niet worden gebruikt voor een lege winkelwagen. Voeg een item toe en probeer het opnieuw."
+"Gift messages can't be used for virtual products.","Cadeauberichten kunnen niet worden gebruikt voor virtuele producten."
+"The gift message isn't available.","Het cadeaubericht is niet beschikbaar."
+"The gift message couldn't be added to Cart.","Het cadeaubericht kon niet worden toegevoegd aan de winkelwagen."
 "Unknown entity type","Onbekend entiteittype"
 "Test label","Test Label"
 "Gift Options","Kado opties"
@@ -4759,7 +4898,6 @@ Reauthorize,"Opnieuw autoriseren"
 "Integration '%1' has been sent for re-authorization.","Integratie '%1' is opnieuw verzonden voor autorisatie."
 "Integration '%1' has been sent for activation.","Integratie '%1' is verstuurd voor activatie."
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Er ging iets mis tijdens het verwijderen van rollen en bevoegdheden. Meer informatie in het exceptions logboek."
-"This customer has no tokens.","De klant heeft geen sleutels."
 "One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","Een of meer <a href=""%1""> integraties</a> zijn vanwege een wijziging in de XML-configs gereset."
 "Invalid Callback URL","Ongeldige Callback-URL"
 "Invalid Rejected Callback URL","Ongeldige afgewezen-Callback-URL"
@@ -5972,7 +6110,6 @@ Create...,Aanmaken...
 "Your credit card will be charged for","Uw creditcard zal in rekening gebracht worden voor"
 "Your billing agreement # is: ","Uw incasso-overeenkomst # is: "
 "Please select a shipping method...","Selecteer een verzendmethode"
-"Update Shipping Method","Update verzendmethode"
 "Buy now with PayPal","Nu kopen met PayPal"
 "Edit Payment Information","Betalingsgegevens bewerken"
 "Items in Your Shopping Cart","Producten in uw winkelwagen"
@@ -6024,6 +6161,7 @@ Display,Weergave
 "Catalog Category Page","Catalogus Categorie-pagina"
 "Catalog Product Page","Catalogus productpagina"
 "Checkout Cart Page","Winkelwagen-afreken pagina"
+Color,Kleur
 "Basic Settings - PayPal Express Checkout","Basisinstellingen - PayPal Express Checkout"
 "Display on Product Details Page","Weergave op Product Details pagina"
 "Debug Mode",Debugmodus
@@ -6038,7 +6176,6 @@ Display,Weergave
 "Page Style",Paginastijl
 "Page Background Color",Pagina-achtergrondkleur
 Shape,Vorm
-Color,Kleur
 "Product Pages",Productpagina
 "Cart Page","Pagina winkelwagen"
 "Mini Cart","Mini winkelwagentje"
@@ -6453,28 +6590,48 @@ Refunds,Terugbetalingen
 "Refresh Statistics for the Last Day","Vernieuw Statistieken van vandaag"
 "Are you sure you want to refresh statistics for the last day?","Weet u zeker dat u de statistieken van afgelopen dag wilt vernieuwen?"
 "My Requisition Lists","Mijn bestellijsten"
+"We couldn't find the requested requisition list.","We kunnen de opgevraagde bestellijst niet vinden."
 "We can't update your requisition list right now.","We kunnen op dit moment uw bestellijst niet bijwerken."
 "We can't add the item to the Requisition List right now: %1.","We kunnen het product op dit moment niet toevoegen aan uw bestellijst: %1."
+"We couldn't find the product you requested to add to your requisition list.","We kunnen het gevraagde product niet vinden om toe te voegen aan je bestellijst."
 "You added %1 item(s) to your shopping cart.","U heeft %1 product(en) aan uw winkelwagen toegevoegd."
+"Invalid request, missing parameter list_id","Ongeldige aanvraag, ontbrekende parameter list_id"
+"Invalid request, please try again.","Ongeldige aanvraag, probeer het opnieuw."
+"Product with requested SKU could not be found.","Product met opgevraagde SKU kon niet worden gevonden."
+"The product","Het product"
+"%1 could not be added to the ""%2"" requisition list.","%1 kon niet worden toegevoegd aan de ""%2"" bestellijst."
+"%1 could not be added to the requisition list.","%1 kon niet worden toegevoegd aan de """" bestellijst."
 "We can't configure the product right now.","We kunnen het product momenteel niet configureren."
 "%1 item(s) were copied to %2","%1 artikel(en) werden gekopieerd naar %2"
 "%1 item(s) were added to the ""%2""","%1 artikel(en) werden toegevoegd naar ""%2"""
 "%1 item(s) were moved to %2","%1 artikel(en) werden verwijderd van %2"
+"The requisition list does not exist.","De opgevraagde verlanglijst bestaat niet."
+"All items in your Shopping Cart could not be added to the ""%1"" requisition list.","Alle artikelen in uw winkelwagen kunnen niet worden toegevoegd aan de ""%1"" bestellijst."
+"One or more products in your Shopping Cart is invalid.","Een of meer producten in uw winkelwagen zijn ongeldig."
 "Requisition Lists",Bestellijsten
 "Requisition List",Bestellijst
 "Invalid item option format.","Ongeldig artikelkeuze formaat."
 "Could not save Requisition List","Kan bestellijst niet opslaan"
 "Cannot delete Requisition List with id %1","Kan de bestellijst met id %1 niet verwijderen"
+"Requested product doesn't exist","Opgevraagde product bestaat niet"
 "Cannot specify product.","Kan product niet specificeren"
 "%1 has been updated in your requisition list.","%1 is bijgewerkt in uw bestellijst."
 "Product %1 has been added to the requisition list %2.","Product %1 is toegevoegd aan bestellijst %2."
 "Options were updated. Please review available configurations.","Opties zijn bijgewerkt. Controleer de beschikbare configuraties."
+"The requested qty is not available","De gevraagde hoeveelheid is niet beschikbaar"
 "Could not save Requisition List. Maximum number of requisition lists was exceeded.","Bestellijst kon niet worden opgeslagen. Maximum aantal bestellijsten werd overschreden."
+"Could not save requisition list. Invalid data provided","Bestellijst kon niet worden opgeslagen. Ongeldige gegevens verstrekt"
 Exception,Uitzondering
+"Warning message.",Waarschuwing.
+"No such requisition list could be found.","Er kon geen dergelijke bestellijst worden gevonden."
+"Not found","Niet gevonden"
 "Could not save","Kan niet opslaan"
 "Add to Requisition List","Toevoegen aan bestellijst"
+"Add Shopping Cart to Requisition List","Winkelwagen toevoegen aan bestellijst"
 "Update Requisition List","Update bestellijst"
 "Create Requisition List","Bestellijst aanmaken"
+"%1 has been added to the ""<a href=""%2"">%3</a>"" requisition list.","%1 is toegevoegd aan de ""<a href=""%2"">%3</a>"" bestellijst."
+"All the items in your Shopping Cart have been added to the ""%1"" requisition list.","Alle artikelen in uw winkelwagen zijn toegevoegd aan de ""%1"" bestellijst."
 "Create New Requisition List","Nieuwe bestellijst aanmaken"
 Rename,Hernoem
 "Rename Requisition List","Naam van bestellijst wijzigen"
@@ -6488,12 +6645,21 @@ Rename,Hernoem
 Copy,Kopieer
 "Move Selected","Geselecteerden verplaatsen"
 "Remove Selected","Verwijder geselecteerde"
+"Are you sure you would like to remove selected items from the requisition list?","Weet u zeker dat u deze producten wilt verwijderen van de bestellijst?"
 "product(s) require your attention","product(en) vereisen uw aandacht"
 "Requisition List Name",Bestellijst-naam
+"Add item to requisition list","Artikel toevoegen aan bestellijst"
+"The item ""%1"" is already in the ""%2"" requisition list.","Het item ""%1"" staat al in de ""%2"" bestellijst."
+"Quantities for identical items will be combined.","Hoeveelheden voor identieke items worden gecombineerd."
+"Add item","Artikel toevoegen"
+"Add items to requisition list","Artikelen toevoegen aan bestellijst"
+"Some items in your Shopping Cart are already in the %1 requisition list.","Sommige artikelen in uw winkelwagen staan al in de %1 bestellijst."
+"Add items","Artikelen toevoegen"
 Ok,OK
 "This action cannot be performed because the selected product(s) require attention. You must resolve these issues before you can continue.","Deze actie kan niet worden uitgevoerd omdat de geselecteerde product(en) aandacht vereisen. U moet deze problemen oplossen voordat u verder kunt gaan."
 "Please Select Product","Selecteer een product"
 "Please select at least one product to proceed.","Selecteer ten minste één product."
+"Requisition List Section","Bestellijst sectie"
 "Enable Requisition List","Bestellijst inschakelen"
 "Number of Requisition Lists","Aantal bestellijsten"
 "The number of requisition lists should be equal or more than 2.","Het aantal bestellijsten moet gelijk of meer dan 2 zijn."
@@ -7052,7 +7218,6 @@ Capture,"Registreer betaling"
 "Save Status","Status opslaan"
 "Order Status Information",Bestelling-statusinformatie
 "Status Code",Statuscode
-"Status Label",Statuslabel
 "Store View Specific Labels","Winkelaanzicht specifieke labels"
 "Total Paid","Totaal betaald"
 "Are you sure you want to send an order email to customer?","Weet u zeker dat u een bestelbevestiging naar de klant wilt versturen?"
@@ -7092,6 +7257,7 @@ Transactions,Transacties
 "Applies to Any of the Specified Order Statuses except canceled orders","Is van toepassing op een van de opgegeven bestelstatussen behalve geannuleerde bestellingen"
 "Show Actual Values","Toon actuele waardes"
 "New Order RSS","Nieuwe bestellingen RSS"
+"Shopping cart",Winkelwagen
 "Discount (%1)","Korting (%s)"
 "Transaction # %1 | %2","Transactie # %1 | %2"
 Value,Waarde
@@ -7108,14 +7274,17 @@ Unassign,Loskoppelen
 "You sent the message.","U heeft het bericht verzonden."
 "Invoice capturing error","Fout bij het verzamelen van de factuur"
 "This order no longer exists.","Deze bestelling bestaat niet meer"
+"The comment is missing. Enter and try again.","De opmerking ontbreekt. Probeer het opnieuw."
 "We cannot add order history.","We kunnen bestelhistorie niet toevoegen."
 "You updated the order address.","U heeft het besteladres bijgewerkt."
 "We can't update the order address right now.","Bijwerken van bestellingadres niet gelukt."
 "You have not canceled the item.","U hebt het artikel niet geannuleerd."
 "You canceled the order.","U hebt de bestelling geannuleerd."
 """%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1"" kortingscode is niet toegepast. Pas geen korting toe is ingeschakeld voor de geselecteerde product(en)"
+"The ""%1"" coupon code isn't valid. Verify the code and try again.","De kortingscode ""%1"" is niet geldig. Controleer de code en probeer het opnieuw."
 "The coupon code has been accepted.","De couponcode is geaccepteerd"
 "New Order","Nieuwe bestelling"
+"Error while processing order.","Fout bij verwerking van bestelling."
 "Cannot add new comment.","Kan nieuwe opmerking niet toevoegen."
 "The credit memo has been canceled.","De creditfactuur is geannuleerd."
 "Credit memo has not been canceled.","Creditfactuur is niet geannuleerd."
@@ -7164,6 +7333,7 @@ Unassign,Loskoppelen
 "Transaction has been approved.","De transactie is goedgekeurd."
 "Transaction has been voided/declined.","Transactie is ongeldig/geweigerd."
 "There is no update for the transaction.","Er is geen update voor de transactie."
+"Action ""%1"" is not supported.","Actie ""%1"" wordt niet ondersteund."
 "We can't update the payment right now.","We kunnen de betaling nu niet bijwerken."
 "You assigned the order status.","U heeft een bestelling-status toegewezen"
 "Something went wrong while assigning the order status.","Er ging iets mis tijdens het toewijzen van de serviceorderstatus."
@@ -7192,10 +7362,12 @@ Unassign,Loskoppelen
 "Shipping Address: ","Afleveradres: "
 "Billing Address: ","Factuuradres: "
 "Please specify order items.","Geef producten voor de bestelling op."
+"The payment method isn't selected. Enter the payment method and try again.","De betaalmethode is niet geselecteerd. Voer de betaalmethode in en probeer het opnieuw."
 "This payment method is not available.","Deze betaalwijze is niet beschikbaar."
 "Validation is failed.","Validatie is mislukt."
 "Path ""%1"" is not part of allowed directory ""%2""","Pad ""%1"" is geen onderdeel van toegestane directory ""%2"""
 "Identifying Fields required","Verplichte velden identificeren"
+"An ID is needed. Set the ID and try again.","Een ID is nodig. Stel het ID in en probeer het opnieuw."
 """Invoice Document Validation Error(s):\n"" .","""Factuur Document validatie fout(en): \n""."
 "Could not save an invoice, see error log for details","Kan de factuur niet opslaan, zie error-log voor details"
 "A hold action is not available.","Vasthouden is niet mogelijk."
@@ -7272,10 +7444,13 @@ Mixed,Gemengd
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","Het PDF totaal model %1 moet of moet een uitbreiding zijn op \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal."
 "We cannot register an existing shipment","We kunnen geen bestaande verzending registreren"
 "Parent shipment cannot be loaded for track object.","Bovenliggende verzending kan niet worden geladen voor track-object."
+"Could not save the shipment tracking.","Tracking van verzending kon niet opgeslagen worden."
 "Order Id is required for shipment document","Bestelling Id is verplicht voor het verzending document"
 "You can't create a shipment without products.","U kunt geen verzending aanmaken zonder producten."
 "The shipment contains product SKU ""%1"" that is not part of the original order.","De verzending bevat product SKU ""%1"" welke geen deel uitmaakt van de oorspronkelijke bestelling."
 "The quantity to ship must not be greater than the unshipped quantity for product SKU ""%1"".","Het aantal om te verzenden mag niet hoger zijn dan het aantal wat beschikbaar is voor product SKU ""%1""."
+"The shipment couldn't be deleted.","Kan de zending niet verwijderen."
+"The shipment couldn't be saved.","Kan de zending niet opslaan."
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Het totaal model moet een uitbreiding zijn op \Magento\Sales\Model\Order\Total\AbstractTotal."
 "An invoice cannot be created when an order has a status of %1","Er kan geen factuur worden aangemaakt als order de status %1 heeft"
 "A creditmemo can not be created when an order has a status of %1","Er kan geen creditfactuur worden aangemaakt als order de status %1 heeft"
@@ -7311,10 +7486,8 @@ Complete,Voltooid
 "Payment Review",Betalingscontrole
 "Email has not been sent","E-mail is niet verzonden"
 "Authorized amount of %1","Autorisatiewaarde %1"
-" Transaction ID: ""%1"""," Transactie-ID: ""%1"""
 "Group was removed","Groep is verwijderd"
 "Changing address information will not recalculate shipping, tax or other order amount.","Het wijzigen van adresinformatie zal de verzending, BTW of andere bestelling-bedragen niet herberekenen."
-"No Payment Methods","Geen betaalmethodes"
 "Order Comments",Bestellingsnotities
 "Payment &amp; Shipping Information","Betaling- &amp; Verzending-informatie"
 "Order Currency:","Valuta van bestelling"
@@ -7994,7 +8167,6 @@ Track:,Tracking:
 "See our Shipping Policy","Bekijk ons verzendbeleid"
 "Shipping Settings Section","Verzendinstellingen sectie"
 "Shipping Policy Parameters Section","Parameters verzendmethodes sectie"
-"Shipping Methods Section","Verzendmethodes sectie"
 "Shipping Settings",Verzendinstellingen
 Origin,Herkomst
 "Shipping Policy Parameters","Parameters verzendmethodes"
@@ -8128,11 +8300,11 @@ Includes,Omvat
 "Store with the same code","Opslaan met dezelfde code"
 "Website with the same code","Website met dezelfde code"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","De website code mag alleen letters (a-z), cijfers (0-9) of een underscore (_) bevatten. Het eerste teken moet een letter zijn."
-"Name is required","Naam is vereist"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","De winkelcode mag alleen letters (a-z), cijfers (0-9) of een underscore (_) bevatten. Het eerste teken moet een letter zijn."
 "Store is inactive","Winkel is inactief"
 "Invalid store parameter.","Ongeldige winkel parameter."
 "Default store is inactive","Standaar winkel is inactief"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","De winkelcode mag alleen letters (a-z), cijfers (0-9) of een underscore (_) bevatten. Het eerste teken moet een letter zijn."
+"Name is required","Naam is vereist"
 "no such entity exception","geen dergelijke entiteitsuitzondering"
 "Your Language:","Uw taal:"
 "Your Language","Uw taal"
@@ -8555,6 +8727,7 @@ Themes,Thema's
 "Insert File","Bestand invoegen"
 welcome,welkom
 "Design Configuration",Ontwerpconfiguratie
+"We cannot find a theme with id ""%1"".","We kunnen geen thema vinden met id ""%1""."
 "You deleted the theme.","U heeft het thema verwijderd."
 "We cannot delete the theme.","We kunnen het thema niet verwijderen."
 "File not found: ""%1"".","Bestand niet gevonden: ""%1""."
@@ -8564,7 +8737,6 @@ welcome,welkom
 "This theme is not editable.","Dit thema kan niet worden bewerkt."
 "You saved the theme.","U heeft het thema opgeslagen."
 "We can't upload the CSS file right now.","We kunnen het CSS bestand momenteel niet uploaden."
-"We cannot find a theme with id ""%1"".","We kunnen geen thema vinden met id ""%1""."
 "We can't upload the JS file right now.","We kunnen het JS bestand momenteel niet uploaden."
 "Sorry, something went wrong. That's all we know.","Er ging iets mis. Verder is er geen informatie."
 "Invalid type","Ongeldig type"
@@ -8585,7 +8757,6 @@ welcome,welkom
 Phrase,Zin
 "We found no files.","We vonden geen bestanden."
 "Browse Files","Door bestanden bladeren"
-Scope:,Bereik:
 "Help Us Keep Magento Healthy","Help ons Magento gezond te houden"
 "Report All Bugs","Rapporteer alle bugs."
 "JavaScript seems to be disabled in your browser.","JavaScript lijkt te zijn uitgeschakeld in uw browser."
@@ -8656,7 +8827,6 @@ Off,Uit
 "You have successfully saved your edits.","Uw bewerkingen zijn opgeslagen."
 "There are {placeholder} messages requires your attention.","Er zijn {placeholder} berichten die uw aandacht vereisen."
 "You haven't selected any items!","Er zijn geen producten geselecteerd!"
-"Search by keyword","Zoeken op trefwoord"
 Keyword,Trefwoord
 "Please enter more or equal than {0} symbols.","Voer {0} of meerdere symbolen in."
 "Please enter less or equal than {0} symbols.","Voer {0} of minder symbolen in."
@@ -8709,8 +8879,6 @@ Keyword,Trefwoord
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Voer een geldige URL-sleutel in (Ex: ""voorbeeld-pagina"", ""voorbeeld-pagina.html"" of ""anderniveau/voorbeeld-pagina"")."
 "Please enter a valid zip code.","Geef een geldige postcode op."
 "Please select State/Province.","Selecteer een staat/provincie."
-"Please enter a value less than or equal to {0}.","Voer een waarde in die minder dan of gelijk is aan {0}."
-"Please enter a value greater than or equal to {0}.","Voer een waarde die groter dan of gelijk is aan {0}."
 "Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Voer geldige e-mailadressen in, gescheiden door komma’s. Bijvoorbeeld iemand@domein.com, iemandanders@domein.com."
 "Please enter issue number or start date for switch/solo card type.","Voer een geldig nummer of een geldige startdatum in voor het switch/solo kaarttype."
 "Please enter positive number in this field.","Een positief getal invullen a. u. b."
@@ -8967,7 +9135,6 @@ Machinable,Machinaal
 "Validation has failed.","Validatie is mislukt."
 "Variable ID","Variabele ID"
 "No token found.","Geen token gevonden."
-"Wrong request.","Verkeerd verzoek."
 "Deletion failure. Please try again.","Verwijderen mislukt. Probeer het opnieuw."
 "Stored Payment Method was successfully removed","Opgeslagen betalingsmethode werd met succes verwijderd"
 "Stored Payment Methods","Opgeslagen betalingsmethoden"
@@ -9353,6 +9520,8 @@ Translate,Vertaal
 "Please enter at least {0} characters.","Voer minstens {0} karakters in."
 "Please enter a value between {0} and {1} characters long.","Voer een waarde in tussen {0} en {1} karakters lang."
 "Please enter a value between {0} and {1}.","Voer een waarde in tussen {0} en {1}."
+"Please enter a value less than or equal to {0}.","Voer een waarde in die minder dan of gelijk is aan {0}."
+"Please enter a value greater than or equal to {0}.","Voer een waarde die groter dan of gelijk is aan {0}."
 "Please enter a date between %min and %max.","Voer een datum in tussen %min en %max."
 "Please enter a valid full date.","Geef a.u.b. een geldige volledige datum op."
 "Please enter a valid month (1-12).","Geef a.u.b. een geldige maand op (1-12)."
