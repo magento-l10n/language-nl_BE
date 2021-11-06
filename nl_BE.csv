@@ -1690,8 +1690,10 @@ message,bericht
 "Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Het gevraagde winkel bestaat niet. Row ID: SKU = %SKU, Store ID: %storeId, Prijs vanaf: %priceFrom, Prijs tot: %priceTo."
 "Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ongeldig attribuut %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Prijs vanaf: %priceFrom, Prijs tot: %priceTo."
 "Lock wait timeout","Lock timeout"
+"Category with ID: %s doesn't exist","Categorie met ID: %s bestaat niet"
 "Product Name or SKU","Productnaam of SKU"
 "Start typing to find products","Begin met typen om producten te vinden"
+"Product with ID: %s doesn't exist","Product met ID: %s bestaat niet"
 "Advanced Pricing","Geavanceerde prijzen"
 "Customer Group Price","Klantgroep prijs"
 "Customer Group",Klantengroep
@@ -6310,6 +6312,7 @@ Duration:,Duur:
 " product(s) require(s) your attention."," product(en) vereisen uw aandacht."
 "Enable Quick Order","Schakel snel bestellen in"
 "Download Sample","Download voorbeeld"
+"Could not find a product with SKU ""%sku""","Kan geen product vinden met SKU ""%sku"""
 "Product that you are trying to add is not available.","Product dat u probeert toe te voegen is niet beschikbaar."
 "This is the wrong quote item id to update configuration.","Dit is het verkeerde quote item id om de configuratie bij te werken."
 "This shipping method is not available. To use this shipping method, please contact us.","Deze verzendmethode is niet beschikbaar. Als u wilt deze verzendmethode gebruiken, neem contact met ons op."
@@ -6336,7 +6339,6 @@ Duration:,Duur:
 Carts,Winkelwagens
 "Manage carts","Winkelwagens beheren"
 "Shopping cart error: %message","Winkelwagen fout: %message"
-"Could not find a product with SKU ""%sku""","Kan geen product vinden met SKU ""%sku"""
 "Missing key ""sku"" in cart item data","Ontbrekende sleutel ""sku"" in artikelgegevens in winkelwagen"
 "Missing key ""qty"" in cart item data","Ontbrekende sleutel ""qty"" in artikelgegevens in winkelwagen"
 "Could not find a cart with ID ""%masked_cart_id""","Kan geen winkelwagen vinden met ID ""%masked_cart_id"""
@@ -7258,7 +7260,7 @@ Transactions,Transacties
 "Show Actual Values","Toon actuele waardes"
 "New Order RSS","Nieuwe bestellingen RSS"
 "Shopping cart",Winkelwagen
-"Discount (%1)","Korting (%s)"
+"Discount (%1)","Korting (%1)"
 "Transaction # %1 | %2","Transactie # %1 | %2"
 Value,Waarde
 "We found an invalid entity model.","We vonden een ongeldige entiteitsmodel."
