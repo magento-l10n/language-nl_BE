@@ -73,6 +73,7 @@ Severity,Ernst
 "Date Added","Datum toegevoegd"
 Message,Bericht
 Actions,Acties
+"Close popup","Sluit venster"
 "You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","U heeft alle recente systeem-meldingen bekeken en opgelost. Herlaad de pagina om de melding op te ruimen."
 "Manage Shopping Cart","Beheer winkelwagen"
 "Create Order","Bestelling aanmaken"
@@ -1989,6 +1990,7 @@ Overview,Overzicht
 "Recently Viewed","Recent bekeken"
 "Are you sure you want to delete this category?","Weet u zeker dat u deze categorie wilt verwijderen?"
 "File validation failed.","Validatie van het bestand is mislukt."
+"Tier Price","Niveau prijs"
 "Full file path is expected.","Volledig bestandspad wordt verwacht."
 from,van
 to,naar
@@ -2005,6 +2007,7 @@ remaining,resterend
 "Changing may affect SEO and cache storage consumption.","Veranderen kan invloed hebben op SEO en cache opslag verbruik."
 Quality,Kwaliteit
 "Jpeg quality for resized images 1-100%.","Jpeg kwaliteit voor aangepaste afbeeldingen 1-100%."
+Cost,Kosten
 "The ""%1"" attribute is required. Enter and try again.","Het ""%1"" attribuut is vereist. Voer in en probeer het opnieuw."
 "Attributes were missing and must be specified.","Attributen ontbreken en moeten worden gespecificeerd."
 "The value of Admin must be unique. (%1)","De waarde van Admin moet uniek zijn. (%1)"
@@ -5644,7 +5647,6 @@ Seller,Verkoper
 "Sales Rep",Vertegenwoordiger
 "Add Product By SKU","Product toevoegen op art.nr."
 "Name & SKU","Naam & SKU"
-Cost,Kosten
 "Cart Price","Winkelwagen prijs"
 "Recalculate Quote","Offerte herberekenen"
 "Update Prices","Prijzen bijwerken"
@@ -7315,6 +7317,7 @@ Invoices,Facturen
 "Refund Shipping (Excl. Tax)","Verzendkosten terugbetalen (Excl. BTW)"
 "Refund Shipping","Afleverkosten terugbetalen"
 "Update Qty's","Het aantal bijwerken"
+"Update Totals","Update totaal"
 Refund,Terugbetaling
 "Refund Offline","Handmatig terugbetalen"
 "Paid Amount","Betaald bedrag"
@@ -7711,6 +7714,7 @@ Complete,Voltooid
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Indien u vragen heeft over uw bestelling kunt u ons contacteren per e-mail op <a href=""mailto:%store_email"">%store_email</a>"
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Uw creditfactuur #%creditmemo_id voor bestelling #%order_id"
 "Billing Info",Factuuradres
+"Shipping Info","Versend info"
 "Update to your %store_name credit memo","Update van uw %store_name creditfactuur"
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Uw bestelling #%increment_id werd geupdate met volgende status <strong>%order_status</strong>."
 "Invoice for your %store_name order","Factuur voor uw %store_name bestelling"
@@ -7743,6 +7747,7 @@ Operations,Bewerkingen
 "Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Uw standaard logo zal gebruikt worden in PDF en HTML documenten.<br />(jpeg, tiff, png) Indien uw pdf afbeelding vervormd is, probeer een groter bestandsformaat van afbeelding te gebruiken."
 "Logo for HTML Print View","Logo voor HTML afdruk-preview"
 "Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)","Logo uitsluitend voor HTML-documenten. Laat leeg om het standaardlogo te gebruiken.<br />(jpeg, gif, png)"
+"Subtotal after discount","Subtotaal na korting"
 "Include Tax to Amount","BTW toevoegen aan bedrag"
 "Description Message",Omschrijving
 "Error to Show in Shopping Cart","Foutmelding te tonen in winkelwagen"
