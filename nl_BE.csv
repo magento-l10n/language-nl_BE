@@ -8,6 +8,7 @@ None,Geen
 "Please assign this item to a store view.","Wijs dit item toe aan een winkelaanzicht."
 "You need more permissions to save this item.","U heeft meer bevoegdheden nodig om dit item op te slaan."
 "You need more permissions to delete this item.","U heeft meer bevoegdheden nodig om dit item te verwijderen."
+"You need more permissions to view this item.","U heeft meer rechten nodig om dit item te zien. "
 "You need more permissions to access website ""%1"".","U heeft meer bevoegdheden nodig voor toegang tot website ""%1""."
 "Role Scopes","Rol scopes"
 Custom,Aangepast
@@ -109,7 +110,9 @@ Configure,Configureren
 "You must buy at least %1 of these per purchase.","U moet ten minste %1 van dit product aanschaffen per aankoop."
 "Specify the product's options.","Geef de productopties aan."
 "Alert me when this item is available.","Verwittig me wanneer dit product beschikbaar is."
+"We can't find this customer.","Klant niet gevonden."
 "Shopping cart management is disabled for this customer.","Het beheer van de winkelmand is uitgeschakeld voor deze klant."
+"We can't find this store.","Winkel niet gevonden."
 Customers,Klanten
 "Shopping Cart",Winkelwagen
 "You do not have access to this.","U heeft hier geen toegang toe."
@@ -547,6 +550,7 @@ To,Aan
 "Add New","Voeg nieuwe toe"
 "Invalid export type supplied for grid export block","Ongeldig exporttype opgegeven voor tabel exportblok"
 "Please correct the column format and try again.","Corrigeer de kolomindeling en probeer het opnieuw."
+"Please select items.","Selecteer producten."
 Submit,Bevestig
 "Unknown block type","Onbekende bloksoort"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Corrigeer de tabbladconfiguratie en probeer het opnieuw. Tab Id mag niet leeg zijn"
@@ -616,6 +620,7 @@ System,Systeem
 "Last 7 Days","Laatste 7 dagen"
 "Current Month","Huidige maand"
 "Authentication storage is incorrect.","De bepaling van de voorraad is onjuist."
+"Authentication error occurred.","Authenticatiefout opgetreden."
 Order,Bestelling
 "Order #%1","Bestelling #%1"
 "Sorry, you need permissions to view this content.","Helaas, je bent niet gemachtigd om deze inhoud te bekijken."
@@ -713,6 +718,7 @@ Tools,Instellingen
 "Catalog Images Cache","Catalogus afbeeldingen cache"
 "Flush Js/Css","Leeg Js/Css"
 "Flush Static Files","Leeg statische bestanden"
+"Web Setup Wizard","Wizard webinstellingen"
 Currency,Valuta
 Communications,Communicatie
 Services,Diensten
@@ -827,6 +833,7 @@ Security,Beveiliging
 "Validate HTTP_VIA","HTTP_VIA valideren"
 "Validate HTTP_X_FORWARDED_FOR","HTTP_X_FORWARDED_FOR valideren"
 "Validate HTTP_USER_AGENT","HTTP_USER_AGENT valideren"
+"Use SID on Storefront","Gebruik SID op storefront"
 "Cache Type","Soort cache"
 Description,Beschrijving
 Tags,tags
@@ -3587,6 +3594,8 @@ Password:,Wachtwoord:
 "Your %store_name email has been changed","Uw %store_name e-mail is veranderd"
 "We have received a request to change the following information associated with your account at %store_name: email.","Wij hebben een verzoek ontvangen om de volgende informatie gekoppeld aan uw account op %store_name te wijzigen: e-mail."
 "If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Als u geen toestemming voor deze actie gegeven hebt, neem onmiddellijk contact met ons op <a href=""mailto:%store_email"">%store_email</a>"
+"or call us at <a href=""tel:%store_phone"">%store_phone</a>","of bel ons op <a href=""tel:%store_phone"">%store_phone</a>"
+"Thanks,<br>%store_name","Bedankt,<br>%store_name"
 "Your %store_name email and password has been changed","Uw %store_name e-mail en wachtwoord is veranderd"
 "We have received a request to change the following information associated with your account at %store_name: email, password.","Wij hebben een verzoek ontvangen om de volgende informatie gekoppeld aan uw account op %store_name te wijzigen: e-mail, wachtwoord."
 "Reset your %store_name password","Uw %store_name wachtwoord resetten"
